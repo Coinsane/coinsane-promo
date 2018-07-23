@@ -46,6 +46,50 @@ const Dashboard = () => {
 			<TeamBlock>
 				<Container>
 					<Header className="team-h1" as='h1' content='Team' />
+					<div className="team-members">
+						<div className="team-member">
+							<div className="team-member-photo">
+								<img src={require('static/images/description.svg')} />
+							</div>
+							<div className="team-member-name">Artem Kashin</div>
+							<div className="team-member-description">CTO, Full-stack developer</div>
+						</div>
+						<div className="team-member">
+							<div className="team-member-photo">
+								<img src={require('static/images/description.svg')} />
+							</div>
+							<div className="team-member-name">Artem Kashin</div>
+							<div className="team-member-description">CTO, Full-stack developer</div>
+						</div>
+						<div className="team-member">
+							<div className="team-member-photo">
+								<img src={require('static/images/description.svg')} />
+							</div>
+							<div className="team-member-name">Artem Kashin</div>
+							<div className="team-member-description">CTO, Full-stack developer</div>
+						</div>
+						<div className="team-member">
+							<div className="team-member-photo">
+								<img src={require('static/images/description.svg')} />
+							</div>
+							<div className="team-member-name">Artem Kashin</div>
+							<div className="team-member-description">CTO, Full-stack developer</div>
+						</div>
+						<div className="team-member">
+							<div className="team-member-photo">
+								<img src={require('static/images/description.svg')} />
+							</div>
+							<div className="team-member-name">Artem Kashin</div>
+							<div className="team-member-description">CTO, Full-stack developer</div>
+						</div>
+						<div className="team-member">
+							<div className="team-member-photo">
+								<img src={require('static/images/description.svg')} />
+							</div>
+							<div className="team-member-name">Artem Kashin</div>
+							<div className="team-member-description">CTO, Full-stack developer</div>
+						</div>
+					</div>
 				</Container>
 			</TeamBlock>
 			<PartnerBlock>
