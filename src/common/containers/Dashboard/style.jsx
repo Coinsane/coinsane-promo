@@ -82,34 +82,6 @@ export const TeamBlock = styled.div`
 		text-align: center;
 		margin-bottom: 20px !important;
 	}
-	
-	.team-members {
-		display: flex;
-		flex: 1;
-		flex-flow: row wrap;
-		justify-content: center;
-	}
-	
-	.team-member {
-		flex: .3;
-		margin: 80px 40px 0;
-		&-photo {
-			text-align: center;
-			img {
-				width: 240px;
-				margin: 0 auto;
-			}
-		}
-		&-name {
-			font-size: 24px;
-			text-align: center;
-			margin: 50px 0 20px;
-		}
-		&-description {
-			font-size: 18px;
-			text-align: center;
-		}
-	}
 `
 
 export const StyledDescription = styled.header`
