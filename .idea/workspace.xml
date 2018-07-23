@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e920a356-74cd-4fcc-9cb8-b6a1442c9b2e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/components/Head/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/Head/style.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Footer/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Footer/style.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Footer/style.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Header/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Header/style.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/containers/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/containers/App/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/containers/App/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/containers/App/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/containers/App/style.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/containers/App/style.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/containers/Dashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/containers/Dashboard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/global.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/global.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/theme.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/theme.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/containers/Dashboard/style.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/containers/Dashboard/style.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +21,8 @@
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/containers/Dashboard/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="733">
+              <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="38" />
               <folding>
                 <element signature="e#9#34#0" expanded="true" />
                 <element signature="e#177#317#0" expanded="true" />
@@ -42,7 +31,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/containers/Dashboard/style.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/components/Head/style.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/components/Head/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="58" selection-start-line="58" selection-end-line="71" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#17#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/components/Footer/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
@@ -60,15 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/containers/Dashboard/style.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="26" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -94,7 +105,7 @@
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/containers/App/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
+            <state relative-caret-position="990">
               <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -107,7 +118,7 @@
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/components/TopMenu/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="45">
               <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -154,10 +165,10 @@
         <option value="$PROJECT_DIR$/src/common/components/Head/index.jsx" />
         <option value="$PROJECT_DIR$/src/common/components/Head/style.jsx" />
         <option value="$PROJECT_DIR$/src/common/components/TopMenu/index.jsx" />
-        <option value="$PROJECT_DIR$/src/common/containers/Dashboard/style.jsx" />
-        <option value="$PROJECT_DIR$/src/common/containers/Dashboard/index.jsx" />
         <option value="$PROJECT_DIR$/src/common/components/Footer/style.jsx" />
         <option value="$PROJECT_DIR$/src/common/components/Footer/index.jsx" />
+        <option value="$PROJECT_DIR$/src/common/containers/Dashboard/index.jsx" />
+        <option value="$PROJECT_DIR$/src/common/containers/Dashboard/style.jsx" />
       </list>
     </option>
   </component>
@@ -196,131 +207,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
+              <item name="coinsane-promo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coinsane-promo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
+              <item name="coinsane-promo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coinsane-promo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
+              <item name="coinsane-promo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coinsane-promo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
+              <item name="coinsane-promo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coinsane-promo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
-              <item name="__snapshots__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
+              <item name="coinsane-promo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coinsane-promo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Head" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Sidebar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="TopMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suicrux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suicrux" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,12 +290,13 @@
       <updated>1532189854612</updated>
       <workItem from="1532189856873" duration="1356000" />
       <workItem from="1532191257465" duration="13687000" />
-      <workItem from="1532210678576" duration="17065000" />
+      <workItem from="1532210678576" duration="17249000" />
+      <workItem from="1532318752867" duration="925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32108000" />
+    <option name="totallyTimeSpent" value="33217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
@@ -385,19 +310,19 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="RNConsole" order="7" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17395833" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,9 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#26#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -430,13 +352,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ssr/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ssr/stats.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -445,13 +361,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/middlewares/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/i18n/index.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -487,39 +397,18 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/app/configure_app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/app/configure_root/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/api/utils/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/components/Sidebar/style.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,9 +438,6 @@
           <caret line="84" column="24" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="24" />
           <caret line="86" column="49" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="49" />
           <caret line="86" column="69" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="69" />
-          <folding>
-            <element signature="e#9#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,9 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,13 +456,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/styles/utils.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/styles/theme.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -615,24 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/components/Head/style.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/components/Head/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#17#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/components/TopMenu/style.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -649,7 +508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/containers/App/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
+        <state relative-caret-position="990">
           <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -674,7 +533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/components/TopMenu/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="45">
           <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -682,26 +541,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/containers/Dashboard/style.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/components/Footer/__snapshots__/index.test.jsx.snap">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/containers/Dashboard/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#9#34#0" expanded="true" />
-            <element signature="e#177#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/semantic-ui-react/dist/es/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,6 +564,42 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#17#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/components/Head/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="58" selection-start-line="58" selection-end-line="71" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#17#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/components/Head/style.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/containers/Dashboard/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="38" />
+          <folding>
+            <element signature="e#9#34#0" expanded="true" />
+            <element signature="e#177#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/containers/Dashboard/style.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
         </state>
       </provider>
     </entry>

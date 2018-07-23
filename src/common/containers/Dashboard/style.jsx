@@ -44,6 +44,27 @@ export const RoadmapBlock = styled.div`
 
 export const DownloadBlock = styled.div`
 	background-image: linear-gradient(-90deg, #9A84FF 3%, #575EF3 100%);
+	
+	.flex-item {
+		flex: .5;
+	}
+	
+	.iphone-download {
+		margin-bottom: -1px;
+	}
+	.download-h1 {
+		color: white !important;
+		font-size: 38px !important;
+		font-weight: normal !important;
+	}
+	.download-p {
+		color: white;
+		font-size: 24px !important;
+		margin-bottom: 30px;
+	}
+	.store-button {
+		margin-right: 20px;
+	}
 `
 
 export const PartnerBlock = styled.div`

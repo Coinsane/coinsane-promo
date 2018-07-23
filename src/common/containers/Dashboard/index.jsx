@@ -58,7 +58,34 @@ const Dashboard = () => {
 				</Container>
 			</PressBlock>
 			<DownloadBlock>
-				<Container className="block">
+				<Container>
+					<div className="flex">
+						<div className="flex-item">
+							<Image
+								className="iphone-download"
+								src={require('static/images/iphone-download.png')}
+								srcSet={require('static/images/iphone-download@2x.png')}
+							/>
+						</div>
+						<div className="flex-item">
+							<Header className="download-h1" as='h1' content='Download the App' />
+							<p className="download-p">{'Our app is available for ios and android download now and enjoy this app on your smartphone anytime'}</p>
+							<Image
+								className="store-button"
+								src={require('static/images/appstore.svg')}
+								alt="appstore"
+								href="http://apple.com"
+								target="_blank"
+							/>
+							<Image
+								className="store-button"
+								src={require('static/images/googleplay.svg')}
+								alt="googleplay"
+								href="http://google.com"
+								target="_blank"
+							/>
+						</div>
+					</div>
 				</Container>
 			</DownloadBlock>
 			<Footer />
