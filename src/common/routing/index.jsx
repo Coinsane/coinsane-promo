@@ -4,7 +4,7 @@ import {createBrowserHistory, createMemoryHistory} from 'history'
 import {asyncComponent} from 'react-async-component'
 import {Loader, Dimmer, Header, Icon} from 'semantic-ui-react'
 import _ from 'lodash'
-import Dashboard from 'containers/Dashboard'
+import Home from 'containers/Home'
 import Links from 'containers/Links'
 
 function asyncComponentCreator (url) {
@@ -45,14 +45,14 @@ function asyncComponentCreator (url) {
 
 function routingFnCreator (useFor) {
 	// const AsyncNotFound = asyncComponentCreator('NotFound')
-	// Dashboard and Links included in build
+	// Home and Links included in build
 	// NotFound(404) is lazy
 	const routes: any[] = [
 		{
 			path: '/',
 			exact: true,
-			component: Dashboard,
-			name: 'Dashboard'
+			component: Home,
+			name: 'Home'
 		},
 		{
 			path: '/links',

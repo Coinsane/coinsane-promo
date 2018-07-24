@@ -1,7 +1,6 @@
 /**
  * @flow
  */
-// import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {Container, Header} from 'semantic-ui-react'
@@ -12,29 +11,29 @@ type Props = {
 	title: string,
 	background: string,
 	color: string,
+	children: React$Node,
 }
 
 class Section extends Component<Props> {
 	render () {
-		const {title, background, color} = this.props
+		const {title, background, color, children} = this.props
 		return (
 			<StyledSection background={background} color={color}>
-				<Container className={background && 'block'}>
-					<Header
+				<Container className={background && 'section'}>
+					{title && <Header
 						className="section-h2"
 						as="h2"
 						content={title}
 						textAlign="center"
-					/>
+					/>}
+					{children}
 				</Container>
 			</StyledSection>
 		)
 	}
 }
 
-const mapStateToProps = (state, props) => {
-	return {}
-}
+const mapStateToProps = (state, props) => ({})
 
 const mapDispatchToProps = dispatch => ({})
 

@@ -25,6 +25,26 @@ class TopMenu extends Component<Props> {
 
 		const menuClass = inverted ? 'menu' : 'menu-white'
 
+		const menu = [
+			{
+				name: 'features',
+				title: 'Features',
+				onClick: this.handleItemClick
+			},			{
+				name: 'team',
+				title: 'Team',
+				onClick: this.handleItemClick
+			},			{
+				name: 'roadmap',
+				title: 'Roadmap',
+				onClick: this.handleItemClick
+			},			{
+				name: 'partners',
+				title: 'Partners',
+				onClick: this.handleItemClick
+			}
+		]
+
 		return (
 			<StyledTopMenu>
 				<Menu
@@ -42,27 +62,16 @@ class TopMenu extends Component<Props> {
 							/>
 						</Menu.Item>
 						<Menu.Menu className="menu-menu" position="right">
-							<Menu.Item
-								name="features"
-								active={activeItem === 'features'}
-								onClick={this.handleItemClick}
-							>
-								Features
-							</Menu.Item>
-							<Menu.Item
-								name="team"
-								active={activeItem === 'team'}
-								onClick={this.handleItemClick}
-							>
-								Team
-							</Menu.Item>
-							<Menu.Item
-								name="partners"
-								active={activeItem === 'partners'}
-								onClick={this.handleItemClick}
-							>
-								Partners
-							</Menu.Item>
+							{menu.map(item => (
+								<Menu.Item
+									key={item.name}
+									name={item.name}
+									active={activeItem === item.name}
+									onClick={item.onClick}
+								>
+									{item.title}
+								</Menu.Item>
+							))}
 						</Menu.Menu>
 						<Menu.Menu position="right">
 							<Dropdown text='Language' item button>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="424px" height="424px" viewBox="0 0 424 424" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>features-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-508.000000, -1612.000000)" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="Group-2" transform="translate(509.000000, 265.000000)">
+                    <g id="features-bg">
+                        <circle id="Oval-3" stroke-opacity="0.05" stroke="#2C263F" stroke-width="2" cx="211" cy="211" r="211"></circle>
+                        <circle id="Oval-3" stroke-opacity="0.08" stroke="#2C263F" stroke-width="4" cx="210.5" cy="210.5" r="187.5"></circle>
+                        <circle id="Oval-3" fill-opacity="0.08" fill="#2C263F" cx="212" cy="212" r="165"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

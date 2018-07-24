@@ -5,7 +5,6 @@ export const StyledHeader = styled.header`
 	position: relative;
 	background-image: linear-gradient(-144deg, #322B48 7%, #1B152D 100%);
 	.h1 {
-	  margin-top: -72px !important;
 		font-weight: normal !important;
 		font-size: 38px !important;
 	}

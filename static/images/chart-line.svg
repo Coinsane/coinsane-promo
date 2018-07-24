@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="32px" viewBox="0 0 75 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g transform="translate(-521.000000, -1861.000000)" id="section-features" stroke="#F61067" stroke-width="4">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="Group-2" transform="translate(509.000000, 265.000000)">
+                    <polyline id="Line" points="15 255.404664 28.2945125 251 32.9740944 261.089061 48.4101253 255.404664 58.3479061 266.129183 66.1114929 259.420534 84 277"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

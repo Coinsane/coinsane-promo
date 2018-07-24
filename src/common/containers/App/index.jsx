@@ -14,7 +14,7 @@ import ReactGA from 'react-ga'
 // Import styled components
 import {PageLayout} from './style'
 import {Dimmer} from 'semantic-ui-react'
-import _ from 'lodash'
+// import _ from 'lodash'
 // Scss is written as a case study and a proof of CSS support
 import './App.scss'
 
@@ -45,23 +45,29 @@ class App extends Component<Props> {
 			ReactGA.initialize(process.env.GA_ID)
 			ReactGA.pageview(pathname + search)
 		}
-	}
 
-	componentWillReceiveProps ({location: nextLocation}) {
-		const {location} = this.props
-		if (process.env.GA_ID && !_.isEqual(nextLocation, location)) {
-			const {search, pathname} = nextLocation
-			ReactGA.pageview(pathname + search)
-		}
-	}
-
-	componentWillMount () {
 		if (process.env.BROWSER) {
 			const {handleWindowResize} = this.props
 			handleWindowResize()
 			window.addEventListener('resize', handleWindowResize)
 		}
 	}
+
+	// componentWillReceiveProps ({location: nextLocation}) {
+	// 	const {location} = this.props
+	// 	if (process.env.GA_ID && !_.isEqual(nextLocation, location)) {
+	// 		const {search, pathname} = nextLocation
+	// 		ReactGA.pageview(pathname + search)
+	// 	}
+	// }
+
+	// componentWillMount () {
+	// 	if (process.env.BROWSER) {
+	// 		const {handleWindowResize} = this.props
+	// 		handleWindowResize()
+	// 		window.addEventListener('resize', handleWindowResize)
+	// 	}
+	// }
 
 	render () {
 		const {children, isMobile} = this.props

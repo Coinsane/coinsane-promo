@@ -28,21 +28,25 @@ class Root extends Component<Props> {
 		SSR: {}
 	}
 
-	componentWillMount () {
-		const {store, i18n} = this.props
-		const {asyncBootstrapPhase} = this.context
-		if (!asyncBootstrapPhase) {
+	// componentWillMount () {
+	// 	const {store, i18n} = this.props
+	// 	const {asyncBootstrapPhase} = this.context
+	// 	if (!asyncBootstrapPhase) {
+	// 		store.dispatch({type: APPLICATION_INIT})
+	// 		addLocaleData(i18n.localeData)
+	// 	}
+	// }
+
+	render () {
+		const {SSR, store, history, i18n} = this.props
+		const routerProps = process.env.BROWSER ? {history} : {location: SSR.location, context: SSR.context}
+
+		if (this.context.asyncBootstrapPhase) {
+			return null
+		} else {
 			store.dispatch({type: APPLICATION_INIT})
 			addLocaleData(i18n.localeData)
 		}
-	}
-
-	render () {
-		if (this.context.asyncBootstrapPhase) {
-			return null
-		}
-		const {SSR, store, history, i18n} = this.props
-		const routerProps = process.env.BROWSER ? {history} : {location: SSR.location, context: SSR.context}
 
 		return (
 			<IntlProvider locale={i18n.locale} messages={defineMessages(i18n.messages)}>

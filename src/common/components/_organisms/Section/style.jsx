@@ -7,8 +7,10 @@ export const StyledSection = styled.div`
 	flex-flow: row wrap;
 	justify-content: center;
 	background: ${props => props.background ? props.background : ''};
+	padding-top: ${props => !props.background ? '100px' : '0'};
+	padding-bottom: ${props => !props.background ? '100px' : '0'};
 	.section {
-		padding: 100px;
+		padding: 100px 0;
 	}
 	.section-h2 {
 		font-weight: normal !important;
