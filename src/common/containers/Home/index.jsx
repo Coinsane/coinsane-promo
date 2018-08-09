@@ -9,6 +9,7 @@ import Head from 'components/Head'
 import Footer from 'components/Footer'
 import Features from 'components/_organisms/Features'
 import Team from 'components/_organisms/Team'
+import Press from 'components/_organisms/Press'
 import DownloadSection from 'components/_organisms/DownloadSection'
 import Section from 'components/_organisms/Section'
 
@@ -23,6 +24,11 @@ const Home = () => {
 		{id: 1, photo: require('static/images/description.svg'), name: 'Artem Kashin', description: 'CTO, Fullstack developer'},
 		{id: 2, photo: require('static/images/description.svg'), name: 'Artem Kashin', description: 'CTO, Fullstack developer'},
 		{id: 3, photo: require('static/images/description.svg'), name: 'Artem Kashin', description: 'CTO, Fullstack developer'}
+	]
+	const articles = [
+		{id: 1, photo: require('static/images/description.svg'), title: 'Tests Go First', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'},
+		{id: 2, photo: require('static/images/description.svg'), title: 'Tests Go First. Usability Testing in Design.', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'},
+		{id: 3, photo: require('static/images/description.svg'), title: 'Tests Go First. Usability Testing in Design.', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'}
 	]
 	return (
 		<StyledHome>
@@ -71,7 +77,9 @@ const Home = () => {
 			<Section
 				title="Press about us"
 				background="radial-gradient(50% 96%, #F9F9FC 0%, #EFF1F6 96%)"
-			/>
+			>
+				<Press articles={articles}/>
+			</Section>
 
 			<DownloadSection
 				background="linear-gradient(-90deg, #9A84FF 3%, #575EF3 100%)"
