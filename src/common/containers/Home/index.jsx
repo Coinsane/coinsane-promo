@@ -10,6 +10,7 @@ import Footer from 'components/Footer'
 import Features from 'components/_organisms/Features'
 import Team from 'components/_organisms/Team'
 import Press from 'components/_organisms/Press'
+import JoinAs from 'components/_organisms/JoinAs'
 import DownloadSection from 'components/_organisms/DownloadSection'
 import Section from 'components/_organisms/Section'
 
@@ -24,6 +25,12 @@ const Home = () => {
 		{id: 1, photo: require('static/images/description.svg'), name: 'Artem Kashin', description: 'CTO, Fullstack developer'},
 		{id: 2, photo: require('static/images/description.svg'), name: 'Artem Kashin', description: 'CTO, Fullstack developer'},
 		{id: 3, photo: require('static/images/description.svg'), name: 'Artem Kashin', description: 'CTO, Fullstack developer'}
+	]
+	const partners = [
+		{id: 1, photo: require('static/images/description.svg')},
+		{id: 2, photo: require('static/images/description.svg')},
+		{id: 3, photo: require('static/images/description.svg')},
+		{id: 4, photo: require('static/images/description.svg')}
 	]
 	const articles = [
 		{id: 1, photo: require('static/images/description.svg'), title: 'Tests Go First', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'},
@@ -72,7 +79,9 @@ const Home = () => {
 				<Team members={members} />
 			</Section>
 
-			<Section background="linear-gradient(-135deg, #322B48 0%, #1B152D 100%)" />
+			<Section background="linear-gradient(-135deg, #322B48 0%, #1B152D 100%)">
+				<JoinAs partners={partners}/>
+			</Section>
 
 			<Section
 				title="Press about us"
