@@ -22,19 +22,19 @@ class Features extends Component<Props> {
 					{list.map((item) => <Feature key={item.id} {...item} />)}
 				</div>
 				<div className="features-show">
-					<Image
+					<img
 						className="feature-icon-1"
 						src={require('static/images/coins/btc.svg')}
 					/>
-					<Image
+					<img
 						className="feature-icon-2"
 						src={require('static/images/coins/eth.svg')}
 					/>
-					<Image
+					<img
 						className="feature-icon-3"
 						src={require('static/images/chart-line.svg')}
 					/>
-					<Image
+					<img
 						className="feature-icon-4"
 						src={require('static/images/coins/xmr.svg')}
 					/>
