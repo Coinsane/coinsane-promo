@@ -7,6 +7,7 @@ export const StyledFeature = styled.div`
 	border-radius: 8px;
 	padding: 20px;
 	margin: 20px;
+	cursor: pointer;
 
 	.title {
 		font-size: 19px;

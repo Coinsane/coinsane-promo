@@ -14,12 +14,40 @@ type Props = {
 }
 
 class Features extends Component<Props> {
+	constructor (props) {
+		super(props)
+		this.state = {
+			mainImg: props.list[0].photo,
+			activeFeature: props.list[0].id
+		}
+		this.updateActiveFeature = this.updateActiveFeature.bind(this)
+	}
+
+	updateActiveFeature (id, photo) {
+		this.setState({
+			activeFeature: id,
+			mainImg: require('static/images/feature-' + id + '.png')
+		})
+	}
+
 	render () {
 		const {list} = this.props
+		const length = parseInt(list.length / 2)
+		const list1 = list.slice(0, length)
+		const list2 = list.slice(length)
+		console.log('Первый', list)
+		console.log('Второй', list1)
 		return (
 			<StyledFeatures backgroundImage={require('static/images/features-bg.svg')}>
 				<div className="features-row">
-					{list.map((item) => <Feature key={item.id} {...item} />)}
+					{list1.map((item) => (
+						<Feature
+							isActive={item.id === this.state.activeFeature}
+							key={item.id}
+							onClick={() => this.updateActiveFeature(item.id, item.photo)}
+							{...item}
+						/>
+					))}
 				</div>
 				<div className="features-show">
 					<img
@@ -40,12 +68,19 @@ class Features extends Component<Props> {
 					/>
 					<Image
 						className="feature-image"
-						src={require('static/images/feature-1.png')}
-						srcSet={require('static/images/feature-1@2x.png')}
+						src={this.state.mainImg}
+						// srcSet={require('static/images/feature-1@2x.png')}
 					/>
 				</div>
 				<div className="features-row">
-					{list.map((item) => <Feature key={item.id} {...item} />)}
+					{list2.map((item) => (
+						<Feature
+							isActive={item.id === this.state.activeFeature}
+							key={item.id}
+							onClick={() => this.updateActiveFeature(item.id, item.photo)}
+							{...item}
+						/>
+					))}
 				</div>
 			</StyledFeatures>
 		)

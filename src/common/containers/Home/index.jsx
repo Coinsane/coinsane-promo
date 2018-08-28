@@ -16,10 +16,14 @@ import Section from 'components/_organisms/Section'
 
 const Home = () => {
 	const features = [
-		{id: 1, photo: '', title: 'Мониторинг крипто-портфолио', description: 'Lorem Ipsum is simply dummy text of the printing', isActive: true},
-		{id: 2, photo: '', title: 'Статистические данные', description: 'Lorem Ipsum is simply dummy text of the printing', isActive: false},
-		{id: 3, photo: '', title: 'Актуальная информация по рынку', description: 'Lorem Ipsum is simply dummy text of the printing', isActive: false},
-		{id: 4, photo: '', title: 'Детальная информация по монетам', description: 'Lorem Ipsum is simply dummy text of the printing', isActive: false}
+		{id: 1, photo: require('static/images/feature-1.png'), title: 'Мониторинг крипто-портфолио', description: 'Lorem Ipsum is simply dummy text of the printing'},
+		{id: 2, photo: require('static/images/feature-1.png'), title: 'Статистические данные', description: 'Lorem Ipsum is simply dummy text of the printing'},
+		{id: 3, photo: require('static/images/feature-3.png'), title: 'Актуальная информация по рынку', description: 'Lorem Ipsum is simply dummy text of the printing'},
+		{id: 4, photo: require('static/images/feature-4.png'), title: 'Детальная информация по монетам', description: 'Lorem Ipsum is simply dummy text of the printing'},
+		{id: 5, photo: require('static/images/feature-5.png'), title: 'Детальная информация по монетам', description: 'Lorem Ipsum is simply dummy text of the printing'},
+		{id: 6, photo: require('static/images/feature-6.png'), title: 'Актуальная информация по рынку', description: 'Lorem Ipsum is simply dummy text of the printing'},
+		{id: 7, photo: require('static/images/feature-7.png'), title: 'Детальная информация по монетам', description: 'Lorem Ipsum is simply dummy text of the printing'},
+		{id: 8, photo: require('static/images/feature-8.png'), title: 'Детальная информация по монетам', description: 'Lorem Ipsum is simply dummy text of the printing'}
 	]
 	const members = [
 		{id: 1, photo: require('static/images/description.svg'), name: 'Artem Kashin', description: 'CTO, Fullstack developer'},
