@@ -1,9 +1,9 @@
 {
-	"name": "Suicrux",
-	"short_name": "Suicrux",
-	"description": "https://github.com/Metnew/suicrux",
-	"start_url": ".",
-	"display": "standalone",
-	"background_color": "#f7f7f7",
-	"theme_color": "#009688"
+  "name": "Coinsane",
+  "short_name": "Coinsane",
+  "description": "Coinsane Promo",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f7f7",
+  "theme_color": "#009688"
 }

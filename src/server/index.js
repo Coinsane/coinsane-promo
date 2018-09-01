@@ -2,22 +2,22 @@
  * @flow
  * @file
  */
-import 'babel-polyfill'
-import express from 'express'
-import fetch from 'isomorphic-fetch'
-import addMiddlewares from './middlewares'
-import API from './api'
-import SSR from './ssr'
+import 'babel-polyfill';
+import express from 'express';
+import fetch from 'isomorphic-fetch';
+import addMiddlewares from './middlewares';
+import API from './api';
+import SSR from './ssr';
 
-global.fetch = fetch
+global.fetch = fetch;
 
-const app: express$Application = express()
+const app: express$Application = express();
 
 // Add global middlewares
-addMiddlewares(app)
+addMiddlewares(app);
 // Add API
-app.use('/api', API)
+app.use('/api', API);
 // Add SSR
-app.use(SSR)
+app.use(SSR);
 
-export default app
+export default app;
