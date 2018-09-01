@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>NEO</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="15.8849263%" y1="50%" x2="79.8138463%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#A8D62B" offset="0%"></stop>
+            <stop stop-color="#75BB24" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="74.982339%" x2="74.9427945%" y2="28.2074687%" id="linearGradient-2">
+            <stop stop-color="#C0E32E" offset="0%"></stop>
+            <stop stop-color="#75BB24" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-533.000000, -1712.000000)" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image3" transform="translate(509.000000, 216.000000)">
+                    <g id="NEO" transform="translate(24.000000, 148.000000)">
+                        <circle id="Oval" fill="#FFFFFF" cx="25.3534906" cy="25.3534906" r="25.3534906"></circle>
+                        <polygon id="Fill-620" fill="url(#linearGradient-1)" points="11 14.0954522 24.8321616 21 41 14.924273 27.0507178 8"></polygon>
+                        <polygon id="Fill-622" fill="url(#linearGradient-2)" points="10 35.3811657 24 42 24 20.7394812 10 14"></polygon>
+                        <polygon id="Fill-624" fill="url(#linearGradient-2)" points="27 21.2008184 27 31.0654582 41 38 41 16"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

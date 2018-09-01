@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="56px" viewBox="0 0 94 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>chart-line-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="8.02036977 275.538361 21.6883184 293.990267 40.5440498 298.434074 45.2236316 308.523135 60.6596625 302.838738 70.5974433 313.563257 78.3610302 306.854608 96.2495373 324.434074"></polyline>
+        <filter x="-5.1%" y="-9.2%" width="121.5%" height="138.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.184313725   0 0 0 0 0.160784314   0 0 0 0 0.254901961  0 0 0 0.985309103 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g transform="translate(-514.000000, -1836.000000)" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image2" transform="translate(509.000000, 216.000000)">
+                    <g id="chart-line-2" transform="translate(52.134954, 299.986217) scale(-1, 1) rotate(1.000000) translate(-52.134954, -299.986217) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#31E981" stroke-width="4" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

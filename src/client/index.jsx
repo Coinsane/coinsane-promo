@@ -28,7 +28,7 @@ import 'isomorphic-fetch';
 import React from 'react';
 import { hydrate } from 'react-dom';
 import { AsyncComponentProvider } from 'react-async-component';
-import asyncBootstrapper from 'react-async-bootstrapper';
+import bootstrap from 'react-async-bootstrapper';
 import { configureApp, configureRootComponent } from 'common/app';
 import { AppContainer } from 'react-hot-loader';
 
@@ -56,7 +56,7 @@ const app = (
   </AppContainer>
 );
 
-asyncBootstrapper(app, false, { asyncBootstrapPhase: true })
+bootstrap(app, false, { asyncBootstrapPhase: true })
   .then(() => {
     console.log('__INITIAL_STATE__:', initialState);
     hydrate(app, document.getElementById('app'));

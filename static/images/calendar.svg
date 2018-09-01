@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="43px" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-10.9697779%" y1="34.6425952%" x2="72.9222544%" y2="113.73184%" id="linearGradient-1">
+            <stop stop-color="#9A84FF" offset="0%"></stop>
+            <stop stop-color="#575EF3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-538.000000, -1692.000000)" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image5" transform="translate(509.000000, 216.000000)">
+                    <g id="calendar" transform="translate(29.954293, 128.696138)">
+                        <polygon id="Shape" fill="#00ABE8" fill-rule="nonzero" points="30.0178571 4 10.9821429 4 0 4 0 13 41 13 41 4"></polygon>
+                        <circle id="Oval" fill="#38454F" fill-rule="nonzero" cx="13.5" cy="6.5" r="1.5"></circle>
+                        <circle id="Oval" fill="#38454F" fill-rule="nonzero" cx="18.5" cy="6.5" r="1.5"></circle>
+                        <circle id="Oval" fill="#38454F" fill-rule="nonzero" cx="22.5" cy="6.5" r="1.5"></circle>
+                        <circle id="Oval" fill="#38454F" fill-rule="nonzero" cx="27.5" cy="6.5" r="1.5"></circle>
+                        <path d="M27.25,0 C26.4025,0 25.6285,0.2737 25,0.7175 C25.4005,1.001 25.73425,1.3559 25.98625,1.764 C26.347,1.5344 26.782,1.4 27.25,1.4 C28.4905,1.4 29.5,2.3422 29.5,3.5 C29.5,4.6578 28.4905,5.6 27.25,5.6 C26.83525,5.6 26.5,5.9129 26.5,6.3 C26.5,6.6871 26.83525,7 27.25,7 C29.31775,7 31,5.4299 31,3.5 C31,1.5701 29.31775,0 27.25,0 Z" id="Shape" fill="#AFB6BB" fill-rule="nonzero"></path>
+                        <path d="M23.3425,2 C23.1305,2.59193548 23,3.26854839 23,4 L24,4 C24,3.16935484 23.739,2.43629032 23.3425,2 Z" id="Shape" fill="#839594" fill-rule="nonzero"></path>
+                        <path d="M19.3425,2 C19.1305,2.59193548 19,3.26854839 19,4 L20,4 C20,3.16935484 19.739,2.43629032 19.3425,2 Z" id="Shape" fill="#839594" fill-rule="nonzero"></path>
+                        <path d="M25.48625,1.764 C25.23425,1.3559 24.9005,1.001 24.5,0.7175 C23.8715,0.2737 23.0975,0 22.25,0 C21.4025,0 20.6285,0.2737 20,0.7175 C20.4005,1.001 20.73425,1.3559 20.98625,1.764 C21.347,1.5344 21.782,1.4 22.25,1.4 C22.718,1.4 23.153,1.5344 23.51375,1.764 C24.1085,2.1427 24.5,2.779 24.5,3.5 C24.5,4.6578 23.4905,5.6 22.25,5.6 C21.83525,5.6 21.5,5.9129 21.5,6.3 C21.5,6.6871 21.83525,7 22.25,7 C24.31775,7 26,5.4299 26,3.5 C26,2.8651 25.80425,2.2778 25.48625,1.764 Z" id="Shape" fill="#AFB6BB" fill-rule="nonzero"></path>
+                        <path d="M15.3425,2 C15.1305,2.59193548 15,3.26854839 15,4 L16,4 C16,3.16935484 15.739,2.43629032 15.3425,2 Z" id="Shape" fill="#839594" fill-rule="nonzero"></path>
+                        <path d="M21.48625,1.764 C21.23425,1.3559 20.9005,1.001 20.5,0.7175 C19.8715,0.2737 19.0975,0 18.25,0 C17.4025,0 16.6285,0.2737 16,0.7175 C16.4005,1.001 16.73425,1.3559 16.98625,1.764 C17.347,1.5344 17.782,1.4 18.25,1.4 C18.718,1.4 19.153,1.5344 19.51375,1.764 C20.1085,2.1427 20.5,2.779 20.5,3.5 C20.5,4.6578 19.4905,5.6 18.25,5.6 C17.83525,5.6 17.5,5.9129 17.5,6.3 C17.5,6.6871 17.83525,7 18.25,7 C20.31775,7 22,5.4299 22,3.5 C22,2.8651 21.80425,2.2778 21.48625,1.764 Z" id="Shape" fill="#AFB6BB" fill-rule="nonzero"></path>
+                        <path d="M16.5205,1.764 C16.2853,1.3559 15.9738,1.001 15.6,0.7175 C15.0134,0.2737 14.291,0 13.5,0 C11.5701,0 10,1.5701 10,3.5 L11.4,3.5 C11.4,2.3422 12.3422,1.4 13.5,1.4 C13.9368,1.4 14.3428,1.5344 14.6795,1.764 C15.2346,2.1427 15.6,2.779 15.6,3.5 C15.6,4.6578 14.6578,5.6 13.5,5.6 C13.1129,5.6 12.8,5.9129 12.8,6.3 C12.8,6.6871 13.1129,7 13.5,7 C15.4299,7 17,5.4299 17,3.5 C17,2.8651 16.8173,2.2778 16.5205,1.764 Z" id="Shape" fill="#AFB6BB" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="0" y="13" width="41" height="29"></rect>
+                        <circle id="Oval" fill="#BFBECB" fill-rule="nonzero" cx="8.5" cy="20.5" r="3.5"></circle>
+                        <circle id="Oval" fill="#BFBECB" fill-rule="nonzero" cx="20.5" cy="20.5" r="3.5"></circle>
+                        <circle id="Oval" fill="#BFBECB" fill-rule="nonzero" cx="32.5" cy="20.5" r="3.5"></circle>
+                        <circle id="Oval" fill="#BFBECB" fill-rule="nonzero" cx="8.5" cy="32.5" r="3.5"></circle>
+                        <circle id="Oval" fill="#BFBECB" fill-rule="nonzero" cx="20.5" cy="32.5" r="3.5"></circle>
+                        <circle id="Oval" fill="url(#linearGradient-1)" cx="32.5" cy="32.5" r="3.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

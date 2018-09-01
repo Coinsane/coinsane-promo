@@ -17,51 +17,188 @@ const Home = () => {
   const features = [
     {
       id: 1,
-      photo: require('static/images/feature-1.png'),
       title: 'Мониторинг крипто-портфолио',
       description: 'Lorem Ipsum is simply dummy text of the printing',
+      icons: [
+        {
+          id: 1,
+          src: 'coins/btc.svg',
+          top: '140px',
+          left: '45px',
+          rotate: '-45deg',
+        },
+        {
+          id: 2,
+          src: 'coins/eth.svg',
+          top: '60px',
+          right: '60px',
+          rotate: '25deg',
+        },
+        {
+          id: 3,
+          src: 'chart-line.svg',
+          top: '270px',
+          right: '45px',
+        },
+      ],
     },
     {
       id: 2,
-      photo: require('static/images/feature-1.png'),
       title: 'Статистические данные',
       description: 'Lorem Ipsum is simply dummy text of the printing',
+      front: true,
+      icons: [
+        {
+          id: 1,
+          src: 'chart-line-2.svg',
+          top: '270px',
+          left: '20px',
+        },
+        {
+          id: 2,
+          src: 'chart-pie.svg',
+          top: '90px',
+          right: '55px',
+        },
+      ],
     },
     {
       id: 3,
-      photo: require('static/images/feature-3.png'),
       title: 'Актуальная информация по рынку',
       description: 'Lorem Ipsum is simply dummy text of the printing',
+      icons: [
+        {
+          id: 1,
+          src: 'coins/neo.svg',
+          top: '150px',
+          left: '40px',
+        },
+        {
+          id: 2,
+          src: 'coins/xmr.svg',
+          top: '300px',
+          right: '45px',
+        },
+      ],
     },
     {
       id: 4,
-      photo: require('static/images/feature-4.png'),
       title: 'Детальная информация по монетам',
       description: 'Lorem Ipsum is simply dummy text of the printing',
+      icons: [
+        {
+          id: 1,
+          src: 'chart-line-3.svg',
+          top: '100px',
+          left: '30px',
+        },
+        {
+          id: 2,
+          src: 'news.svg',
+          top: '420px',
+          right: '50px',
+          rotate: '25deg',
+        },
+      ],
     },
     {
       id: 5,
-      photo: require('static/images/feature-5.png'),
       title: 'Детальная информация по монетам',
       description: 'Lorem Ipsum is simply dummy text of the printing',
+      icons: [
+        {
+          id: 1,
+          src: 'calendar.svg',
+          top: '130px',
+          left: '45px',
+          rotate: '25deg',
+        },
+        {
+          id: 2,
+          src: 'add.svg',
+          top: '390px',
+          right: '45px',
+        },
+        {
+          id: 3,
+          src: 'coins/xmr.svg',
+          top: '160px',
+          right: '45px',
+        },
+      ],
     },
     {
       id: 6,
-      photo: require('static/images/feature-6.png'),
-      title: 'Актуальная информация по рынку',
+      title: 'Транзакции',
       description: 'Lorem Ipsum is simply dummy text of the printing',
+      icons: [
+        {
+          id: 1,
+          src: 'switch.svg',
+          top: '150px',
+          left: '35px',
+        },
+        {
+          id: 2,
+          src: 'usa.svg',
+          top: '80px',
+          right: '50px',
+          rotate: '25deg',
+        },
+        {
+          id: 3,
+          src: 'twitter-2.svg',
+          top: '390px',
+          right: '45px',
+        },
+      ],
     },
     {
       id: 7,
-      photo: require('static/images/feature-7.png'),
-      title: 'Детальная информация по монетам',
+      title: 'Добавление аккаунтов криптобирж',
       description: 'Lorem Ipsum is simply dummy text of the printing',
+      icons: [
+        {
+          id: 1,
+          src: 'shield.svg',
+          top: '330px',
+          left: '45px',
+          rotate: '-25deg',
+        },
+        {
+          id: 2,
+          src: 'update.svg',
+          top: '120px',
+          right: '45px',
+        },
+      ],
     },
     {
       id: 8,
-      photo: require('static/images/feature-8.png'),
-      title: 'Детальная информация по монетам',
+      title: 'Создайте свой аккаунт',
       description: 'Lorem Ipsum is simply dummy text of the printing',
+      icons: [
+        {
+          id: 1,
+          src: 'coins/eth.svg',
+          top: '100px',
+          left: '50px',
+          rotate: '-25deg',
+        },
+        {
+          id: 2,
+          src: 'buy.svg',
+          top: '310px',
+          left: '30px',
+        },
+        {
+          id: 3,
+          src: 'usa.svg',
+          top: '250px',
+          right: '50px',
+          rotate: '25deg',
+        },
+      ],
     },
   ];
   const members = [

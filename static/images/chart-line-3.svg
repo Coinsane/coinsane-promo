@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="44px" viewBox="0 0 65 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>chart-line-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="18.6101658 105.219406 30.1284076 129.938539 45.5644385 124.254142 55.5022193 134.97866 63.2658061 128.270012 77.009644 142.614787"></polyline>
+        <filter x="-7.7%" y="-12.0%" width="132.5%" height="150.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.184313725   0 0 0 0 0.160784314   0 0 0 0 0.254901961  0 0 0 0.985309103 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g transform="translate(-524.000000, -1666.000000)" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image4" transform="translate(509.000000, 216.000000)">
+                    <g id="chart-line-3" transform="translate(47.809905, 123.917096) scale(-1, 1) translate(-47.809905, -123.917096) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#31E981" stroke-width="4" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

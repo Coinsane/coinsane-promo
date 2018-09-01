@@ -1,5 +1,20 @@
 import styled from 'styled-components';
 
+export const FeaturedIcon = styled.div`
+  img {
+    position: absolute;
+    top: ${props => (props.top ? props.top : 'inherit')};
+    left: ${props => (props.left ? props.left : 'inherit')};
+    bottom: ${props => (props.bottom ? props.bottom : 'inherit')};
+    right: ${props => (props.right ? props.right : 'inherit')};
+    transform: rotate(${props => (props.rotate ? props.rotate : '')});
+    -ms-transform: rotate(${props => (props.rotate ? props.rotate : '')});
+    -moz-transform: rotate(${props => (props.rotate ? props.rotate : '')});
+    -webkit-transform: rotate(${props => (props.rotate ? props.rotate : '')});
+    -o-transform: rotate(${props => (props.rotate ? props.rotate : '')});
+  }
+`;
+
 export const StyledFeatures = styled.div`
   display: flex;
   flex: 1;
@@ -24,7 +39,28 @@ export const StyledFeatures = styled.div`
   .feature-image {
     width: 305px;
     margin: 0 auto;
-    box-shadow: 10px 10px 30px 0 rgba(37,31,54,0.30), inset 0 1px 6px 0 rgba(0,0,0,0.13);
+    box-shadow: ${props => (props.front ? 'none' : '10px 10px 30px 0 rgba(37,31,54,0.30), inset 0 1px 6px 0 rgba(0,0,0,0.13)')};
+  }
+
+  .feature-image-front {
+    width: 380px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  
+  .feature-icon-1 {
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+    left: 35px;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
   }
   
   .feature-icon-1 {

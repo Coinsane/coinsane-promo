@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="24px" viewBox="0 0 44 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>switch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32.5,20 C27.8130785,20 24,16.1869215 24,11.5 C24,6.81307848 27.8130785,3 32.5,3 C37.1869215,3 41,6.81307848 41,11.5 C41,16.1869215 37.1869215,20 32.5,20 Z" id="path-1"></path>
+        <filter x="-23.5%" y="-11.8%" width="147.1%" height="147.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0784313725   0 0 0 0 0.062745098   0 0 0 0 0.129411765  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-530.000000, -1714.000000)" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image6" transform="translate(509.000000, 216.000000)">
+                    <g id="switch" transform="translate(21.000000, 150.000000)">
+                        <path d="M32.3195876,0 L11.6804124,0 C5.23981031,0 1.31450406e-13,5.15887767 1.31450406e-13,11.5 C1.31450406e-13,17.8411223 5.23981031,23 11.6804124,23 L32.3195876,23 C38.7601897,23 44,17.8411223 44,11.5 C44,5.15887767 38.7601897,0 32.3195876,0 Z" id="Shape" fill="#31E981" fill-rule="nonzero"></path>
+                        <g id="Path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

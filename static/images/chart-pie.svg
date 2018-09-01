@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>chart-pie</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-858.000000, -1653.000000)" fill-rule="nonzero" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image2" transform="translate(509.000000, 216.000000)">
+                    <g id="chart-pie" transform="translate(349.000000, 89.000000)">
+                        <path d="M24.5794381,16 C24.5794381,17.8246497 23.9960677,19.517951 23,20.9206436 L28.2977104,26 C30.6112133,23.2706874 32,19.7910464 32,16 C32,12.2089536 30.6117841,8.72931261 28.2982812,6 L23.0005708,11.0793564 C23.9960677,12.482049 24.5794381,14.1753503 24.5794381,16 Z" id="Shape" fill="#A286FF"></path>
+                        <path d="M20.8786876,23.5100769 C19.4644085,24.4496923 17.7571204,25 15.9173989,25 C11.6077932,25 8.02436436,21.9851538 7.24907679,18 L0,18 C0.828260962,25.8647692 7.6386519,32 15.9173989,32 C19.7403116,32 23.248143,30.6904615 26,28.5080769 L20.8786876,23.5100769 Z" id="Shape" fill="#F61067"></path>
+                        <path d="M7.24907679,14 C8.02436436,10.0148462 11.6077932,7 15.9173989,7 C17.7571204,7 19.4644085,7.55030769 20.8786876,8.48992308 L26,3.49246154 C23.248143,1.30953846 19.7397598,0 15.9173989,0 C7.6386519,0 0.828260962,6.13469231 0,14 L7.24907679,14 Z" id="Shape" fill="#00B6FF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
