@@ -2,7 +2,6 @@
  * @flow
  */
 import React, { Component } from 'react';
-import { Image } from 'semantic-ui-react';
 import { withRouter } from 'react-router';
 
 import Feature from 'components/_molecules/Feature';
@@ -36,8 +35,6 @@ class Features extends Component<Props> {
     const length = parseInt(list.length / 2, 0);
     const list1 = list.slice(0, length);
     const list2 = list.slice(length);
-    console.log('Первый', list);
-    console.log('Второй', list1);
     return (
       <StyledFeatures backgroundImage={require('static/images/features-bg.svg')}>
         <div className="features-row">
@@ -71,10 +68,11 @@ class Features extends Component<Props> {
             src={require('static/images/coins/xmr.svg')}
             alt=""
           />
-          <Image
+          <img
             className="feature-image"
             src={mainImg}
-            // srcSet={require('static/images/feature-1@2x.png')}
+            alt=""
+            srcSet={require('static/images/feature-1@2x.png')}
           />
         </div>
         <div className="features-row">

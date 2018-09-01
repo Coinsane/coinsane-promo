@@ -14,6 +14,7 @@ export const StyledFeatures = styled.div`
 
   .features-show {
     flex: .4;
+    text-align: center;
     align-items: center;
     align-self: center;
     background: url(${props => (props.backgroundImage ? props.backgroundImage : '')}) no-repeat center;
