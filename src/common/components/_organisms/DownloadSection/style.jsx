@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledDownloadSection = styled.div`
-  background: ${props => props.background ? props.background : ''};
+  background: ${props => (props.background ? props.background : '')};
 
   .flex {
     display: flex;

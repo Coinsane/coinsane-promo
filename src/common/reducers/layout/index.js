@@ -25,12 +25,14 @@ export function layout(state: State = initialState, action): State {
       sidebarOpened: !isMobile,
     };
   }
-  case LOCATION_CHANGE:
+  case LOCATION_CHANGE: {
     const { isMobile } = computeLayoutMobileStatuses(state);
+
     return {
       ...state,
       sidebarOpened: !isMobile,
     };
+  }
   default:
     return state;
   }

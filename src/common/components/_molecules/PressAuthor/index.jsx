@@ -20,5 +20,5 @@ export default function PressAuthor({ photo, name, date }) {
 PressAuthor.propTypes = {
   photo: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired
+  date: PropTypes.string.isRequired,
 };

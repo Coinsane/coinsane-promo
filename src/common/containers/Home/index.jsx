@@ -87,19 +87,19 @@ const Home = () => {
   const partners = [
     {
       id: 1,
-      photo: require('static/images/description.svg')
+      photo: require('static/images/description.svg'),
     },
     {
       id: 2,
-      photo: require('static/images/description.svg')
+      photo: require('static/images/description.svg'),
     },
     {
       id: 3,
-      photo: require('static/images/description.svg')
+      photo: require('static/images/description.svg'),
     },
     {
       id: 4,
-      photo: require('static/images/description.svg')
+      photo: require('static/images/description.svg'),
     },
   ];
   const articles = [
@@ -132,7 +132,7 @@ const Home = () => {
     <StyledHome>
       <Helmet>
         <title>Coinsane</title>
-        <meta name="description" content="Crypto accounting platform"/>
+        <meta name="description" content="Crypto accounting platform" />
       </Helmet>
       <Head />
 

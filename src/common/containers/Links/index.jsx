@@ -18,14 +18,16 @@ type Props = {
 
 class Links extends Component<Props> {
   componentDidMount() {
-    if (!this.props.isLinksLoaded) {
-      this.props.getLinks();
+    const { isLinksLoaded, getLinks } = this.props;
+    if (!isLinksLoaded) {
+      getLinks();
     }
   }
 
   async asyncBootstrap() {
-    if (!this.props.isLinksLoaded) {
-      await this.props.getLinks();
+    const { isLinksLoaded, getLinks } = this.props;
+    if (!isLinksLoaded) {
+      await getLinks();
     }
     return true;
   }
@@ -43,9 +45,7 @@ class Links extends Component<Props> {
           <Grid stackable>
             <Grid.Column width={16}>
               <List relaxed divided animated>
-                {_.map(links, (linkItem, i) => {
-                  return <LinkItem key={i} {...linkItem} />;
-                })}
+                {_.map(links, (linkItem, i) => <LinkItem key={i} {...linkItem} />)}
               </List>
             </Grid.Column>
           </Grid>
@@ -68,7 +68,7 @@ function mapStateToProps(state) {
 const mapDispatchToProps = dispatch => ({
   async getLinks() {
     return dispatch(GET_LINKS());
-  }
+  },
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Links);

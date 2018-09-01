@@ -1,20 +1,23 @@
 import styled from 'styled-components';
 
 export const StyledFeature = styled.div`
-  background: ${props => props.isActive ? 'white' : 'transparent'};
-  box-shadow: ${props => props.isActive ? '0 10px 25px 0 rgba(47,41,65,0.10)' : 'none'};
+  background: ${props => (props.isActive ? 'white' : 'transparent')};
+  box-shadow: ${props => (props.isActive ? '0 10px 25px 0 rgba(47,41,65,0.10)' : 'none')};
   border-radius: 8px;
   padding: 20px;
   margin: 20px;
   cursor: pointer;
+  &:focus {
+    outline: none;
+  }
 
-  .title {
+  & > .title {
     font-size: 19px;
     color: #2C263F;
     margin-bottom: 14px;
   }
 
-  .description {
+  & > .description {
     font-size: 14px;
     color: #1B152D;
   }

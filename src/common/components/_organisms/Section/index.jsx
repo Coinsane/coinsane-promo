@@ -16,7 +16,9 @@ type Props = {
 
 class Section extends Component<Props> {
   render() {
-    const { title, background, color, children } = this.props;
+    const {
+      title, background, color, children,
+    } = this.props;
     return (
       <StyledSection background={background} color={color}>
         <Container className={background && 'section'}>
@@ -35,8 +37,8 @@ class Section extends Component<Props> {
   }
 }
 
-const mapStateToProps = (state, props) => ({});
+const mapStateToProps = () => ({});
 
-const mapDispatchToProps = dispatch => ({});
+const mapDispatchToProps = () => ({});
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Section));

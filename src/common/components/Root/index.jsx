@@ -12,9 +12,9 @@ import App from 'containers/App';
 type Props = {
   store: Object,
   i18n: Object,
-  SSR: {
-    location?: Object,
-    context?: Object
+  SSR?: {
+    location: Object,
+    context: Object
   },
   history: any
 }
@@ -38,18 +38,21 @@ class Root extends Component<Props> {
   // }
 
   render() {
-    const { SSR, store, history, i18n } = this.props;
+    const {
+      SSR, store, history, i18n,
+    } = this.props;
+    const { asyncBootstrapPhase } = this.context;
     const routerProps = process.env.BROWSER ? { history } : {
       location: SSR.location,
       context: SSR.context,
     };
 
-    if (this.context.asyncBootstrapPhase) {
+    if (asyncBootstrapPhase) {
       return null;
-    } else {
-      store.dispatch({ type: APPLICATION_INIT });
-      addLocaleData(i18n.localeData);
     }
+    store.dispatch({ type: APPLICATION_INIT });
+    addLocaleData(i18n.localeData);
+
 
     return (
       <IntlProvider locale={i18n.locale} messages={defineMessages(i18n.messages)}>
@@ -71,18 +74,16 @@ class Root extends Component<Props> {
                   />
                   <meta name="theme-color" content="#1b1e2f" />
                   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                  <base href="/"/>
+                  <base href="/" />
 
                   <meta name="msapplication-tap-highlight" content="no" />
                   <link rel="manifest" href="manifest.json" />
-                  <noscript
-                    dangerouslySetInnerHTML={{
-                      __html: `You are using outdated browser. You can install modern browser here:
-                    <a href="http://outdatedbrowser.com/">http://outdatedbrowser.com</a>.`,
-                    }}
-                  />
+                  <noscript>
+                    {`You are using outdated browser. You can install modern browser here:
+                    <a href="http://outdatedbrowser.com/">http://outdatedbrowser.com</a>.`}
+                  </noscript>
                 </Helmet>
-                <RoutingWrapper/>
+                <RoutingWrapper />
               </App>
             </Router>
           </ThemeProvider>

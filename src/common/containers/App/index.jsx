@@ -74,14 +74,14 @@ class App extends Component<Props> {
     const { children, isMobile } = this.props;
     const dimmerProps = {
       active: isMobile,
-      page: true
+      page: true,
     };
 
     return (
       <PageLayout>
         <Dimmer id="page-dimmer" key={1} {...dimmerProps} />
         <Headroom style={{ zIndex: 2 }} className="headroom-menu">
-          <TopMenu/>
+          <TopMenu />
         </Headroom>
         <div className="main-layout">
           <main className="main-content">
@@ -106,7 +106,7 @@ const mapDispatchToProps = (dispatch) => {
   return {
     handleWindowResize() {
       clearTimeout(resizer);
-      const innerWidth: number = window.innerWidth;
+      const { innerWidth } = window;
       resizer = setTimeout(() => dispatch(WINDOW_RESIZE(innerWidth)), 85);
     },
   };

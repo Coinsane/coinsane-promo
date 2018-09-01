@@ -6,7 +6,17 @@ import React from 'react';
 import { Container, Header, Image } from 'semantic-ui-react';
 import { StyledDownloadSection } from './style';
 
-export default function DownloadFooter({ image, imageSet, title, description, background }) {
+DownloadFooter.propTypes = {
+  image: PropTypes.string.isRequired,
+  imageSet: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  background: PropTypes.string.isRequired,
+};
+
+export default function DownloadFooter({
+  image, imageSet, title, description, background,
+}) {
   return (
     <StyledDownloadSection background={background}>
       <Container>
@@ -19,7 +29,7 @@ export default function DownloadFooter({ image, imageSet, title, description, ba
             />
           </div>
           <div className="flex-item">
-            <Header className="download-h2" as='h2' content={title} />
+            <Header className="download-h2" as="h2" content={title} />
             <p className="download-p">{description}</p>
             <Image
               className="store-button"
@@ -41,11 +51,3 @@ export default function DownloadFooter({ image, imageSet, title, description, ba
     </StyledDownloadSection>
   );
 }
-
-DownloadFooter.propTypes = {
-  image: PropTypes.string,
-  imageSet: PropTypes.string,
-  title: PropTypes.string,
-  description: PropTypes.string,
-  background: PropTypes.string
-};

@@ -26,7 +26,7 @@ const configureStore = (initialState: Object) => {
   };
 
   const composeFunc = getComposeFunc();
-  const composedEnhancers = composeFunc.apply(null, enhancers);
+  const composedEnhancers = composeFunc(...enhancers);
 
   return createStore(rootReducer, initialState, composedEnhancers);
 };

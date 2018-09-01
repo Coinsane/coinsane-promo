@@ -34,4 +34,8 @@ const configureRootComponent = (props: Props) => {
   return <Root {...props} />;
 };
 
+configureRootComponent.defaultProps = {
+  SSR: {},
+};
+
 export default configureRootComponent;

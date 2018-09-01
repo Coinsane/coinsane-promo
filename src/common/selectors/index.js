@@ -17,5 +17,5 @@ export const computeLayoutMobileStatuses = ({ innerWidth }) => {
 };
 
 export const getLayoutMobileStatuses = createSelector(
-  getLayoutState, computeLayoutMobileStatuses
+  getLayoutState, computeLayoutMobileStatuses,
 );

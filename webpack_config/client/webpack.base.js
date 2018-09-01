@@ -1,11 +1,11 @@
 import path from 'path';
 import rimraf from 'rimraf';
 import webpack from 'webpack';
-import config from '../config';
-import isomorphicWebpackConfig from '../webpack.isomorphic';
 import AssetsPlugin from 'assets-webpack-plugin';
 import WebpackAssetsManifest from 'webpack-assets-manifest';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
+import config from '../config';
+import isomorphicWebpackConfig from '../webpack.isomorphic';
 
 const {
   GA_ID,

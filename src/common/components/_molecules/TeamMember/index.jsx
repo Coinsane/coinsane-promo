@@ -21,5 +21,5 @@ export default function TeamMember({ photo, name, description }) {
 TeamMember.propTypes = {
   photo: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  description: PropTypes.string.isRequired,
 };

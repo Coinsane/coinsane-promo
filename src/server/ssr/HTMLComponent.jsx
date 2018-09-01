@@ -1,4 +1,4 @@
-/// @flow
+// / @flow
 import serealize from 'serialize-javascript';
 import _ from 'lodash';
 
@@ -19,7 +19,9 @@ type args = {
   i18n: Object
 }
 
-const HTMLComponent = ({ css, asyncState, initialState, assets, i18n, app, helmet }: args) => {
+const HTMLComponent = ({
+  css, asyncState, initialState, assets, i18n, app, helmet,
+}: args) => {
   const stringifiedAsyncState: string = serealize(asyncState);
   const stringifiedState: string = serealize(initialState);
   const stringifiedI18N: string = serealize(i18n);
@@ -28,18 +30,14 @@ const HTMLComponent = ({ css, asyncState, initialState, assets, i18n, app, helme
     js: ({ path }) => `<script src="${path}" type="text/javascript"></script>`,
   };
   const assetsOrdered = ['manifest', 'polyfills', 'vendor', 'client'];
-  const getTags = assets => funcs => ext => {
-    // sort assets to be injected in right order
-    // const assetsOrdered = ['manifest', 'vendor', 'client']
-    return Object.keys(assets)
-      .filter(bundleName => assets[bundleName][ext])
-      .sort((a, b) => assetsOrdered.indexOf(a) - assetsOrdered.indexOf(b))
-      .map(bundleName => {
-        const path = assets[bundleName][ext];
-        return funcs[ext]({ path });
-      })
-      .join('');
-  };
+  const getTags = assets => funcs => ext => Object.keys(assets)
+    .filter(bundleName => assets[bundleName][ext])
+    .sort((a, b) => assetsOrdered.indexOf(a) - assetsOrdered.indexOf(b))
+    .map((bundleName) => {
+      const path = assets[bundleName][ext];
+      return funcs[ext]({ path });
+    })
+    .join('');
   const getTagsFromAssets = getTags(_.pick(assets, assetsOrdered))(wrapFuncs);
   const cssTags = getTagsFromAssets('css');
   const jsTags = getTagsFromAssets('js');

@@ -2,7 +2,9 @@
 import React from 'react';
 import { createBrowserHistory, createMemoryHistory } from 'history';
 import { asyncComponent } from 'react-async-component';
-import { Dimmer, Header, Icon, Loader, } from 'semantic-ui-react';
+import {
+  Dimmer, Header, Icon, Loader,
+} from 'semantic-ui-react';
 import _ from 'lodash';
 import Home from 'containers/Home';
 import Links from 'containers/Links';
@@ -30,7 +32,7 @@ function asyncComponentCreator(url) {
       return (
         <Dimmer active>
           <Header inverted as="h2" icon textAlign="center">
-            <Icon name="refresh"/>
+            <Icon name="refresh" />
             Refresh
             <Header.Subheader>Got error while loading page.</Header.Subheader>
           </Header>

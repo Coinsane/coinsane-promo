@@ -29,15 +29,22 @@
     "global-require": 0,
     "no-tabs": 1,
     "no-unused-vars": 1,
+    "no-unused-expressions": 0,
     "no-use-before-define": 0,
+    "no-underscore-dangle": 0,
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
-    "react/jsx-space-before-closing": 1,
+    "react/jsx-tag-spacin": {
+      "beforeSelfClosing": 1
+    },
     "react/jsx-one-expression-per-line": 0,
+    "react/prefer-stateless-function": 0,
+    "react/no-array-index-key": 0,
     "no-console": 0,
     "indent": [
       "error",
       2
     ],
+    "import/no-extraneous-dependencies": 0,
     "import/no-unresolved": 0,
     "import/prefer-default-export": 0,
     "import/no-dynamic-require": 0

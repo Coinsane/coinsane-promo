@@ -2,7 +2,7 @@
 import fs from 'fs';
 import chokidar from 'chokidar';
 
-let cache = {};
+const cache = {};
 // NOTE: Razzle could `require` CLIENT_ASSETS_MANIFEST
 // In SUIcrux it's currently not possible :(
 // Server requires "missing module"
@@ -30,7 +30,7 @@ async function getFile(path) {
       });
     };
     // does file exist?
-    fs.access(path, fs.constants.R_OK, err => {
+    fs.access(path, fs.constants.R_OK, (err) => {
       if (err) {
         // No. Watch for changes, resolve on `add`.
         watcher.on('add', readFile);

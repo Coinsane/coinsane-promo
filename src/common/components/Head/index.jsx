@@ -1,7 +1,6 @@
 /**
  * @flow
  */
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Container, Header, Image } from 'semantic-ui-react';
@@ -11,8 +10,6 @@ import { StyledHeader } from './style';
 
 class Head extends Component {
   state = {};
-
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
   render() {
     return (
@@ -40,7 +37,7 @@ class Head extends Component {
   }
 }
 
-const HomepageHeading = ({ mobile }) => (
+const HomepageHeading = () => (
   <Container>
     <div className="flex">
       <div className="flex-item">
@@ -82,14 +79,8 @@ const HomepageHeading = ({ mobile }) => (
   </Container>
 );
 
-HomepageHeading.propTypes = {
-  mobile: PropTypes.bool,
-};
+const mapStateToProps = () => ({});
 
-const mapStateToProps = (state, props) => {
-  return {};
-};
-
-const mapDispatchToProps = dispatch => ({});
+const mapDispatchToProps = () => ({});
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Head));

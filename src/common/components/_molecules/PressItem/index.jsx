@@ -3,9 +3,11 @@ import React from 'react';
 import PressAuthor from 'components/_molecules/PressAuthor';
 import { StyledPressItem } from './style';
 
-export default function PressItem({ title, description, photo, name, date }) {
+export default function PressItem({
+  title, description, photo, name, date,
+}) {
   const maxSize = 80;
-  const slicedDescription = description.length > maxSize ? description.slice(0, maxSize) + '...' : description;
+  const slicedDescription = description.length > maxSize ? `${description.slice(0, maxSize)}...` : description;
   return (
     <StyledPressItem>
       <div className="title">{title}</div>

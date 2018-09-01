@@ -3,12 +3,13 @@
  */
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Menu, Container, Image, Dropdown } from 'semantic-ui-react';
+import {
+  Menu, Container, Image, Dropdown,
+} from 'semantic-ui-react';
 import { withRouter } from 'react-router';
 import { StyledTopMenu } from './style';
 
 type Props = {
-  theme: object,
   inverted: boolean,
 }
 
@@ -42,7 +43,7 @@ class TopMenu extends Component<Props> {
         name: 'partners',
         title: 'Partners',
         onClick: this.handleItemClick,
-      }
+      },
     ];
 
     return (
@@ -111,8 +112,8 @@ class TopMenu extends Component<Props> {
   }
 }
 
-const mapStateToProps = (state, props) => ({});
+const mapStateToProps = () => ({});
 
-const mapDispatchToProps = dispatch => ({});
+const mapDispatchToProps = () => ({});
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(TopMenu));
