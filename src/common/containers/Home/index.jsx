@@ -13,6 +13,7 @@ import Press from 'components/_organisms/Press'
 import JoinAs from 'components/_organisms/JoinAs'
 import DownloadSection from 'components/_organisms/DownloadSection'
 import Section from 'components/_organisms/Section'
+import RoadMap from 'components/_organisms/RoadMap'
 
 const Home = () => {
 	const features = [
@@ -40,6 +41,11 @@ const Home = () => {
 		{id: 1, photo: require('static/images/description.svg'), title: 'Tests Go First', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'},
 		{id: 2, photo: require('static/images/description.svg'), title: 'Tests Go First. Usability Testing in Design.', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'},
 		{id: 3, photo: require('static/images/description.svg'), title: 'Tests Go First. Usability Testing in Design.', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'}
+	]
+	const quarter = [
+		{id: 1, title: 'Tests Go First', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'},
+		{id: 2, title: 'Tests Go First. Usability Testing in Design.', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'},
+		{id: 3, title: 'Tests Go First. Usability Testing in Design.', description: 'Countrary to popular belief, Lorem Ipsum is not simply random text', name: 'Ben Doring', date: 'Oct 27 - 8 Minutes read'}
 	]
 	return (
 		<StyledHome>
@@ -77,7 +83,9 @@ const Home = () => {
 				title="Roadmap"
 				color="white"
 				background="linear-gradient(-135deg, #322B48 0%, #1B152D 100%)"
-			/>
+			>
+				<RoadMap quarter={quarter}/>
+			</Section>
 
 			<Section title="Team">
 				<Team members={members} />
