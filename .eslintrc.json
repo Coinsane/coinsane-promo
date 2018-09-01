@@ -1,26 +1,45 @@
 {
-	"extends": ["plugin:flowtype/recommended", "plugin:react/recommended", "standard"],
-	"parser": "babel-eslint",
-	"plugins": ["react", "babel", "flowtype"],
-	"parserOptions": {
-		"ecmaFeatures": {
-			"jsx": true,
-			"modules": true
-		}
-	},
-	"globals": {
-		"Raven": true
-	},
-	"env": {
-		"browser": true,
-		"amd": true,
-		"es6": true,
-		"node": true,
-		"jest": true
-	},
-	"rules": {
-		"no-tabs": 0,
-		"no-unused-vars": 1,
-		"indent": [2, "tab"]
-	}
+  "extends": [
+    "plugin:flowtype/recommended",
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "babel",
+    "flowtype"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "globals": {
+    "Raven": true
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "global-require": 0,
+    "no-tabs": 1,
+    "no-unused-vars": 1,
+    "no-use-before-define": 0,
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/jsx-space-before-closing": 1,
+    "react/jsx-one-expression-per-line": 0,
+    "no-console": 0,
+    "indent": [
+      "error",
+      2
+    ],
+    "import/no-unresolved": 0,
+    "import/prefer-default-export": 0,
+    "import/no-dynamic-require": 0
+  }
 }

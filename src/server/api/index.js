@@ -1,7 +1,8 @@
-import {Router} from 'express'
-import links from './links'
-const router = Router()
+import { Router } from 'express';
+import links from './links';
 
-router.get('/links', (req, res) => res.send(links))
+const router = Router();
 
-export default router
+router.get('/links', (req, res) => res.send(links));
+
+export default router;
