@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const StyledRoadItem = styled.div`
     flex: 1;
+    flex-flow: column;
     align-items: center;
     align-content: center;
     align-self: center;
@@ -13,7 +14,7 @@ export const StyledRoadItem = styled.div`
   .title {
     font-size: 18px;
     margin: 0 0 10px;
-    color: #2c263f;
+    color: #747AFF;
     height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;

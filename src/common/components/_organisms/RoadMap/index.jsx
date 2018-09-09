@@ -2,7 +2,8 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import RoadItem from 'components/_molecules/RoadItem';
 import PropTypes from 'prop-types';
-// import {StyledRoadMap} from './style'
+import { StyledRoadMap } from './style';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 RoadMap.propTypes = {
   quarter: PropTypes.arrayOf(PropTypes.shape({
@@ -12,37 +13,29 @@ RoadMap.propTypes = {
   })).isRequired,
 };
 
-/* class DemoCarousel extends Component {
-  render () {
-    return (
-      <Carousel>
-        <div>
-          <img src="static/images/feature-1.png" />
-          <p className="legend">Legend 1</p>
-        </div>
-        <div>
-          <img src="static/images/feature-2.png" />
-          <p className="legend">Legend 2</p>
-        </div>
-        <div>
-          <img src="static/images/feature-3.png" />
-          <p className="legend">Legend 3</p>
-        </div>
-      </Carousel>
-    )
-  }
-}
-*/
 export default function RoadMap({ quarter }) {
   return (
-    <Carousel showThumbs={false}>
-      {quarter && quarter.map(q => (
-        <RoadItem
-          key={q.id}
-          title={q.title}
-          description={q.description}
-        />
-      ))}
-    </Carousel>
+    <StyledRoadMap>
+      <Carousel
+        showArrows
+        autoPlay
+        interval={10000}
+        infiniteLoop
+        showThumbs={false}
+        centerMode
+        centerSlidePercentage={50}
+        emulateTouch
+        showStatus={false}
+        showIndicators={false}
+      >
+        {quarter && quarter.map(q => (
+          <RoadItem
+            key={q.id}
+            title={q.title}
+            description={q.description}
+          />
+        ))}
+      </Carousel>
+    </StyledRoadMap>
   );
 }
