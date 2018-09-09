@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="41px" viewBox="0 0 47 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>news</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-10.9697779%" y1="34.6425952%" x2="72.9222544%" y2="113.73184%" id="linearGradient-1">
+            <stop stop-color="#9A84FF" offset="0%"></stop>
+            <stop stop-color="#575EF3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-858.000000, -1963.000000)" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image4" transform="translate(509.000000, 216.000000)">
+                    <g id="news" transform="translate(349.123542, 399.690063)">
+                        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="35.71325 35.3109534 35.71325 40 0 40 0 0 3.28567578 2.54750551 6.57027344 0 9.85594922 2.54750551 13.141625 0 16.4273008 2.54750551 19.7118086 0 22.9986523 2.54750551 26.2831602 0 29.5688359 2.54750551 32.8556797 0 36.1413555 2.54750551 39.4270312 0 42.713875 2.54750551 46 0 46 29.658159 35.71325 29.658159 35.71325 31.0431343"></polygon>
+                        <rect id="Rectangle-path" fill="url(#linearGradient-1)" x="3" y="16" width="20" height="20"></rect>
+                        <rect id="Rectangle-path" fill="#615683" fill-rule="nonzero" x="3" y="8" width="40" height="5"></rect>
+                        <path d="M26.0421218,17.0667714 L43.9141117,17.0667714 L43.9141117,18.8349476 L26.0421218,18.8349476 L26.0421218,17.0667714 Z M26.0421218,21.3422238 L43.9141117,21.3422238 L43.9141117,23.1104 L26.0421218,23.1104 L26.0421218,21.3422238 Z M26.0421218,25.6175857 L43.9141117,25.6175857 L43.9141117,27.3857619 L26.0421218,27.3857619 L26.0421218,25.6175857 Z M26.0421218,29.8930381 L36.7155736,29.8930381 L36.7155736,31.6612143 L26.0421218,31.6612143 L26.0421218,29.8930381 Z M26.0421218,34.1684905 L36.7155736,34.1684905 L36.7155736,35.9366667 L26.0421218,35.9366667 L26.0421218,34.1684905 Z" id="Combined-Shape" fill="#BFBECB" fill-rule="nonzero"></path>
+                        <polygon id="Shape" fill="#999999" fill-rule="nonzero" points="46 30 36 40 36 35.4659459 36 31.339196 36 30"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

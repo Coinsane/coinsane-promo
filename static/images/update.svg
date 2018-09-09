@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>update</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-10.9697779%" y1="34.6425952%" x2="72.9222544%" y2="113.73184%" id="linearGradient-1">
+            <stop stop-color="#9A84FF" offset="0%"></stop>
+            <stop stop-color="#575EF3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-850.000000, -1682.000000)" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image7" transform="translate(509.000000, 216.000000)">
+                    <g id="update" transform="translate(341.000000, 118.000000)">
+                        <circle id="Oval-5" fill="url(#linearGradient-1)" cx="25.5" cy="25.5" r="25.5"></circle>
+                        <polygon id="Shape" fill-opacity="0.75" fill="#FFFFFF" fill-rule="nonzero" points="24 18 24 26.6207345 30.8480036 31 32 28.9138157 26.3999925 25.3276283 26.3999925 18"></polygon>
+                        <path d="M41,10 L36.2910223,14.8391343 C30.2563609,8.85485581 20.545764,8.85485581 14.5110219,14.8391343 C8.4677249,20.8234127 8.51074142,30.5275127 14.5540384,36.5117912 C20.5973354,42.4960696 30.4112365,42.4960696 36.4545335,36.5117912 C39.4848176,33.5066958 40.9999193,29.0809468 40.9999193,25.6711844 L37.5478634,25.6711844 C37.556499,29.0809468 36.3856909,31.7760638 34.0441555,34.1009018 C29.3438134,38.7592153 21.7337626,38.7592153 17.0334205,34.1009018 C12.3330784,29.4425883 12.3330784,21.8997804 17.0334205,17.2415476 C21.7337626,12.5833148 29.3438134,12.7554982 34.0441555,17.4137309 L29.3179873,22.2700593 L41,22.2700593 L41,10 Z" id="Shape" fill-opacity="0.9" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

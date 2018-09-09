@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="58px" viewBox="0 0 44 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>shield</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-541.000000, -1882.000000)" fill-rule="nonzero" id="section-features">
+            <g transform="translate(0.000000, 1348.000000)">
+                <g id="image7" transform="translate(509.000000, 216.000000)">
+                    <g id="shield" transform="translate(32.000000, 318.000000)">
+                        <path d="M22,0 C22,0 15.333,8 0,8 L0,27.085 C0,37.051 4.328,46.662 12.164,52.82 C14.937,55 18.208,56.875 22,58 C25.792,56.875 29.062,55 31.836,52.82 C39.672,46.662 44,37.051 44,27.085 L44,8 C28.667,8 22,0 22,0 Z" id="Shape" fill="#00ABE8"></path>
+                        <path d="M22,51.661 C19.877,50.828 17.822,49.636 15.872,48.103 C9.69,43.245 6,35.388 6,27.085 L6,13.628 C13.391,12.685 18.639,10.114 22,7.83 L22,51.661 Z" id="Shape" fill="#28BDF2"></path>
+                        <path d="M32.6280574,23.6818724 C32.2570754,23.3362002 31.6556074,23.3362002 31.2845512,23.6818724 L19.9029714,34.2860016 L15.5280783,30.2099877 C15.1570963,29.8643155 14.5556283,29.86435 14.1845721,30.2099877 C13.813553,30.5556253 13.813553,31.1160029 14.1845721,31.4616751 L19.2312183,36.1634808 C19.6020889,36.5091184 20.2040022,36.5088764 20.5747245,36.1634808 L32.6280574,24.9335944 C32.9990765,24.5879568 32.9990394,24.0275446 32.6280574,23.6818724 Z" id="Shape-Copy-2" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
