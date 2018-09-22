@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import {
-  Container, Grid, Header, Icon,
+  Container, Grid, Header,
 } from 'semantic-ui-react';
 import { StyledFooter } from './style';
 
