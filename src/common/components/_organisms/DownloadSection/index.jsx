@@ -42,7 +42,7 @@ export default function DownloadFooter({
               className="store-button"
               src={require('static/images/googleplay.svg')}
               alt="googleplay"
-              href="http://google.com"
+              href="https://play.google.com/store/apps/details?id=org.coinsane.v1"
               target="_blank"
             />
           </div>

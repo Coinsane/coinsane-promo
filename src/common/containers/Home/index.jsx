@@ -268,25 +268,32 @@ const Home = () => {
   ];
   const quarter = [
     {
+      id: 4,
+      title: 'Planning',
+      description: '- Structer\n- Design',
+      titleMap: 'Q1.2018',
+      statusMap: 'old_step',
+    },
+    {
       id: 1,
-      title: 'Tests Go First',
-      description: 'Countrary to popular belief, Lorem Ipsum is not simply random text',
-      name: 'Ben Doring',
-      date: 'Oct 27 - 8 Minutes read',
+      title: 'App MVP',
+      description: '- Portfolios manager\n- Charts\n- Add coins\n- Transactions\n- Market overview  \n- Coins list\n- Settings',
+      titleMap: 'Q2.2018',
+      statusMap: 'passed_step',
     },
     {
       id: 2,
-      title: 'Tests Go First. Usability Testing in Design.',
-      description: 'Countrary to popular belief, Lorem Ipsum is not simply random text Countrary to popular belief, Lorem Ipsum is not simply random text',
-      name: 'Ben Doring',
-      date: 'Oct 27 - 8 Minutes read',
+      title: 'App Stable',
+      description: '- Subscription model\n- Push events\n- User account\n- Portfolios from exchanges api\n- Wallets & transactions from blockchain\n- Transactions history\n- Landing\n- Presentation',
+      titleMap: 'Q3.2018',
+      statusMap: 'current_step',
     },
     {
       id: 3,
-      title: 'Tests Go First. Usability Testing in Design.',
-      description: 'Countrary to popular belief, Lorem Ipsum is not simply random text',
-      name: 'Ben Doring',
-      date: 'Oct 27 - 8 Minutes read',
+      title: 'Crowdsale, PromoCons',
+      description: '- Stores list\n- Admin panel\n- CSN token model\n- Airdrop\n- Acquire partners\n- ICO Token Sales',
+      titleMap: 'Q4.2018',
+      statusMap: 'next_step',
     },
   ];
 
@@ -298,7 +305,10 @@ const Home = () => {
       </Helmet>
       <Head />
 
-      <Section title="Description">
+      <Section
+        id="description"
+        title="Description"
+      >
         <div className="flex">
           <div className="flex-item-3">
             <Image
@@ -316,6 +326,7 @@ const Home = () => {
       </Section>
 
       <Section
+        id="features"
         title="Features"
         background="radial-gradient(50% 96%, #F9F9FC 0%, #EFF1F6 96%)"
       >
@@ -325,6 +336,7 @@ const Home = () => {
       </Section>
 
       <Section
+        id="roadmap"
         title="Roadmap"
         color="white"
         background="linear-gradient(-135deg, #322B48 0%, #1B152D 100%)"
@@ -332,15 +344,23 @@ const Home = () => {
         <RoadMap quarter={quarter} />
       </Section>
 
-      <Section title="Team">
+      <Section
+        id="team"
+        title="Team"
+        background="#fff"
+      >
         <Team members={members} />
       </Section>
 
-      <Section background="linear-gradient(-135deg, #322B48 0%, #1B152D 100%)">
+      <Section
+        id="partners"
+        background="linear-gradient(-135deg, #322B48 0%, #1B152D 100%)"
+      >
         <JoinAs partners={partners} />
       </Section>
 
       <Section
+        id="press"
         title="Press about us"
         background="radial-gradient(50% 96%, #F9F9FC 0%, #EFF1F6 96%)"
       >
@@ -348,7 +368,7 @@ const Home = () => {
       </Section>
 
       <DownloadSection
-        background="linear-gradient(-90deg, #9A84FF 3%, #575EF3 100%)"
+        background="linear-gradient(90deg, #9A84FF 3%, #575EF3 100%)"
         image={require('static/images/iphone-download.png')}
         imageSet={require('static/images/iphone-download@2x.png')}
         title="Download the App"

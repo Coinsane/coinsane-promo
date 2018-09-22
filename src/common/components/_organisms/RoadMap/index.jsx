@@ -10,6 +10,8 @@ RoadMap.propTypes = {
     id: PropTypes.number,
     title: PropTypes.string,
     description: PropTypes.string,
+    statusMap: PropTypes.string.isRequired,
+    titleMap: PropTypes.string.isRequired,
   })).isRequired,
 };
 
@@ -18,8 +20,8 @@ export default function RoadMap({ quarter }) {
     <StyledRoadMap>
       <Carousel
         showArrows
-        autoPlay
-        interval={10000}
+        // autoPlay
+        // interval={10000}
         infiniteLoop
         showThumbs={false}
         centerMode
@@ -33,6 +35,8 @@ export default function RoadMap({ quarter }) {
             key={q.id}
             title={q.title}
             description={q.description}
+            titleMap={q.titleMap}
+            statusMap={q.statusMap}
           />
         ))}
       </Carousel>

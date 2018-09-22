@@ -7,7 +7,11 @@ import {
   Menu, Container, Image, Dropdown,
 } from 'semantic-ui-react';
 import { withRouter } from 'react-router';
+import { goToAnchor, goToTop, configureAnchors } from 'react-scrollable-anchor';
+
 import { StyledTopMenu } from './style';
+
+configureAnchors({ offset: 0, scrollDuration: 200 });
 
 type Props = {
   inverted: boolean,
@@ -16,7 +20,11 @@ type Props = {
 class TopMenu extends Component<Props> {
   state = {};
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
+  handleItemClick = (e, item) => {
+    if (item) goToAnchor(item.name);
+    else goToTop();
+    this.setState({ activeItem: item.name });
+  };
 
   render() {
     const { activeItem } = this.state;
@@ -95,6 +103,8 @@ class TopMenu extends Component<Props> {
                   className="telegram"
                   src={require('static/images/telegram.svg')}
                   alt="telegram"
+                  href="https://t.me/coinsane"
+                  target="_blank"
                 />
               </Menu.Item>
               <Menu.Item>
@@ -102,6 +112,8 @@ class TopMenu extends Component<Props> {
                   className="twitter"
                   src={require('static/images/twitter.svg')}
                   alt="twitter"
+                  href="https://twitter.com/coinsane_org"
+                  target="_blank"
                 />
               </Menu.Item>
             </Menu.Menu>

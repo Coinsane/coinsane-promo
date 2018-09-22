@@ -50,7 +50,7 @@ const HomepageHeading = () => (
         <Header
           className="h2"
           as="h2"
-          content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+          content="Development of crypto accounting platform for assets management and payments. Online banking on blockchain."
           inverted
         />
         <Image
@@ -64,7 +64,7 @@ const HomepageHeading = () => (
           className="store-button"
           src={require('static/images/googleplay.svg')}
           alt="googleplay"
-          href="http://google.com"
+          href="https://play.google.com/store/apps/details?id=org.coinsane.v1"
           target="_blank"
         />
       </div>

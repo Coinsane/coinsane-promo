@@ -9,9 +9,9 @@ import Headroom from 'react-headroom';
 import TopMenu from 'components/TopMenu';
 // Import actions
 import { WINDOW_RESIZE } from 'actions/layout';
-import { getLayoutMobileStatuses } from 'selectors';
+// import { getLayoutMobileStatuses } from 'selectors';
 import ReactGA from 'react-ga';
-import { Dimmer } from 'semantic-ui-react';
+// import { Dimmer } from 'semantic-ui-react';
 // Import styled components
 import { PageLayout } from './style';
 // import _ from 'lodash'
@@ -21,9 +21,9 @@ import './App.scss';
 type Props = {
   children: React$Node,
   location: any,
-  history: any,
+  // history: any,
   handleWindowResize: Function,
-  isMobile: boolean,
+  // isMobile: boolean,
 }
 
 class App extends Component<Props> {
@@ -71,15 +71,18 @@ class App extends Component<Props> {
   // }
 
   render() {
-    const { children, isMobile } = this.props;
-    const dimmerProps = {
-      active: isMobile,
-      page: true,
-    };
+    const {
+      children,
+      // isMobile,
+    } = this.props;
+    // const dimmerProps = {
+    //   active: isMobile,
+    //   page: true,
+    // };
 
     return (
       <PageLayout>
-        <Dimmer id="page-dimmer" key={1} {...dimmerProps} />
+        {/* <Dimmer id="page-dimmer" key={1} {...dimmerProps} /> */}
         <Headroom style={{ zIndex: 2 }} className="headroom-menu">
           <TopMenu />
         </Headroom>
@@ -93,14 +96,9 @@ class App extends Component<Props> {
   }
 }
 
-const mapStateToProps = (state) => {
-  const { isMobile } = getLayoutMobileStatuses(state);
-
-  return {
-    isMobile,
-  };
-};
-
+const mapStateToProps = () => ({
+  // isMobile,
+});
 const mapDispatchToProps = (dispatch) => {
   let resizer;
   return {
