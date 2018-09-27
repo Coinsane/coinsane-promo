@@ -143,8 +143,7 @@
     "lint:styles": "stylelint ./src/common/**/*.scss -s scss --config ./.stylelintrc --fix",
     "lint:scripts": "eslint -c ./.eslintrc.json ./src ./webpack_config --ignore-pattern dist",
     "flow": "flow",
-    "release": "standard-version",
-    "prepush": "npm run lint:scripts"
+    "release": "standard-version"
   },
   "engines": {
     "node": ">=8"
