@@ -20,8 +20,8 @@ export default function RoadMap({ quarter }) {
     <StyledRoadMap>
       <Carousel
         showArrows
-        // autoPlay
-        // interval={10000}
+        autoPlay
+        interval={10000}
         infiniteLoop
         showThumbs={false}
         centerMode

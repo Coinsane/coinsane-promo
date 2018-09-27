@@ -12,17 +12,8 @@ const Footer = () => (
     <Container>
       <Grid relaxed>
         <Grid.Row verticalAlign="middle">
-          <Grid.Column width={3}>
-            <Header as="h3" inverted>Company</Header>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Header as="h3" inverted>Support</Header>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Header as="h3" inverted>Media Social</Header>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Header as="h3" inverted>Address</Header>
+          <Grid.Column width={12}>
+            <Header as="h3" inverted href="mailto:tema@coinsane.org">Join As A Partner</Header>
           </Grid.Column>
           <Grid.Column width={4}>
             <Header as="h3" inverted>

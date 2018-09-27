@@ -144,6 +144,7 @@
     "lint:scripts": "eslint -c ./.eslintrc.json ./src ./webpack_config --ignore-pattern dist",
     "flow": "flow",
     "release": "standard-version",
+    "prepush": "npm run lint:scripts"
   },
   "engines": {
     "node": ">=8"

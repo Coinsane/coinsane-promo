@@ -47,10 +47,6 @@ class TopMenu extends Component<Props> {
         name: 'roadmap',
         title: 'Roadmap',
         onClick: this.handleItemClick,
-      }, {
-        name: 'partners',
-        title: 'Partners',
-        onClick: this.handleItemClick,
       },
     ];
 

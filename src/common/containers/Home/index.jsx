@@ -7,8 +7,8 @@ import Head from 'components/Head';
 import Footer from 'components/Footer';
 import Features from 'components/_organisms/Features';
 import Team from 'components/_organisms/Team';
-import Press from 'components/_organisms/Press';
-import JoinAs from 'components/_organisms/JoinAs';
+// import Press from 'components/_organisms/Press';
+// import JoinAs from 'components/_organisms/JoinAs';
 import DownloadSection from 'components/_organisms/DownloadSection';
 import Section from 'components/_organisms/Section';
 import RoadMap from 'components/_organisms/RoadMap';
@@ -18,8 +18,8 @@ const Home = () => {
   const features = [
     {
       id: 1,
-      title: 'Мониторинг крипто-портфолио',
-      description: 'Lorem Ipsum is simply dummy text of the printing',
+      title: 'Monitoring of crypto-portfolio',
+      description: '',
       icons: [
         {
           id: 1,
@@ -45,8 +45,8 @@ const Home = () => {
     },
     {
       id: 2,
-      title: 'Статистические данные',
-      description: 'Lorem Ipsum is simply dummy text of the printing',
+      title: 'Statistical data',
+      description: '',
       front: true,
       icons: [
         {
@@ -65,8 +65,8 @@ const Home = () => {
     },
     {
       id: 3,
-      title: 'Актуальная информация по рынку',
-      description: 'Lorem Ipsum is simply dummy text of the printing',
+      title: 'Current market information',
+      description: '',
       icons: [
         {
           id: 1,
@@ -84,8 +84,8 @@ const Home = () => {
     },
     {
       id: 4,
-      title: 'Детальная информация по монетам',
-      description: 'Lorem Ipsum is simply dummy text of the printing',
+      title: 'Сoins - statistics',
+      description: '',
       icons: [
         {
           id: 1,
@@ -104,8 +104,8 @@ const Home = () => {
     },
     {
       id: 5,
-      title: 'Детальная информация по монетам',
-      description: 'Lorem Ipsum is simply dummy text of the printing',
+      title: 'Сoins - transactions',
+      description: '',
       icons: [
         {
           id: 1,
@@ -130,8 +130,8 @@ const Home = () => {
     },
     {
       id: 6,
-      title: 'Транзакции',
-      description: 'Lorem Ipsum is simply dummy text of the printing',
+      title: 'Settings',
+      description: '',
       icons: [
         {
           id: 1,
@@ -156,8 +156,8 @@ const Home = () => {
     },
     {
       id: 7,
-      title: 'Добавление аккаунтов криптобирж',
-      description: 'Lorem Ipsum is simply dummy text of the printing',
+      title: 'Create your account',
+      description: '',
       icons: [
         {
           id: 1,
@@ -176,8 +176,8 @@ const Home = () => {
     },
     {
       id: 8,
-      title: 'Создайте свой аккаунт',
-      description: 'Lorem Ipsum is simply dummy text of the printing',
+      title: 'Add new transactions',
+      description: '',
       icons: [
         {
           id: 1,
@@ -222,50 +222,50 @@ const Home = () => {
       description: 'CTO, Fullstack developer',
     },
   ];
-  const partners = [
-    {
-      id: 1,
-      photo: require('static/images/description.svg'),
-    },
-    {
-      id: 2,
-      photo: require('static/images/description.svg'),
-    },
-    {
-      id: 3,
-      photo: require('static/images/description.svg'),
-    },
-    {
-      id: 4,
-      photo: require('static/images/description.svg'),
-    },
-  ];
-  const articles = [
-    {
-      id: 1,
-      photo: require('static/images/description.svg'),
-      title: 'Tests Go First',
-      description: 'Countrary to popular belief, Lorem Ipsum is not simply random text',
-      name: 'Ben Doring',
-      date: 'Oct 27 - 8 Minutes read',
-    },
-    {
-      id: 2,
-      photo: require('static/images/description.svg'),
-      title: 'Tests Go First. Usability Testing in Design.',
-      description: 'Countrary to popular belief, Lorem Ipsum is not simply random text Countrary to popular belief, Lorem Ipsum is not simply random text',
-      name: 'Ben Doring',
-      date: 'Oct 27 - 8 Minutes read',
-    },
-    {
-      id: 3,
-      photo: require('static/images/description.svg'),
-      title: 'Tests Go First. Usability Testing in Design.',
-      description: 'Countrary to popular belief, Lorem Ipsum is not simply random text',
-      name: 'Ben Doring',
-      date: 'Oct 27 - 8 Minutes read',
-    },
-  ];
+  // const partners = [
+  //   {
+  //     id: 1,
+  //     photo: require('static/images/description.svg'),
+  //   },
+  //   {
+  //     id: 2,
+  //     photo: require('static/images/description.svg'),
+  //   },
+  //   {
+  //     id: 3,
+  //     photo: require('static/images/description.svg'),
+  //   },
+  //   {
+  //     id: 4,
+  //     photo: require('static/images/description.svg'),
+  //   },
+  // ];
+  // const articles = [
+  //   {
+  //     id: 1,
+  //     photo: require('static/images/description.svg'),
+  //     title: 'Tests Go First',
+  //     description: 'Countrary to popular belief, Lorem Ipsum is not simply random text',
+  //     name: 'Ben Doring',
+  //     date: 'Oct 27 - 8 Minutes read',
+  //   },
+  //   {
+  //     id: 2,
+  //     photo: require('static/images/description.svg'),
+  //     title: 'Tests Go First. Usability Testing in Design.',
+  //     description: 'Countrary to popular belief, Lorem Ipsum is not simply random text',
+  //     name: 'Ben Doring',
+  //     date: 'Oct 27 - 8 Minutes read',
+  //   },
+  //   {
+  //     id: 3,
+  //     photo: require('static/images/description.svg'),
+  //     title: 'Tests Go First. Usability Testing in Design.',
+  //     description: 'Countrary to popular belief, Lorem Ipsum is not simply random text',
+  //     name: 'Ben Doring',
+  //     date: 'Oct 27 - 8 Minutes read',
+  //   },
+  // ];
   const quarter = [
     {
       id: 4,
@@ -277,21 +277,21 @@ const Home = () => {
     {
       id: 1,
       title: 'App MVP',
-      description: '- Portfolios manager\n- Charts\n- Add coins\n- Transactions\n- Market overview  \n- Coins list\n- Settings',
+      description: '- Portfolios manager\n- Charts\n- Add coins\n- Transactions\n- Market overview',
       titleMap: 'Q2.2018',
       statusMap: 'passed_step',
     },
     {
       id: 2,
       title: 'App Stable',
-      description: '- Subscription model\n- Push events\n- User account\n- Portfolios from exchanges api\n- Wallets & transactions from blockchain\n- Transactions history\n- Landing\n- Presentation',
+      description: '- Subscription model\n- Push events\n- User account\n- Portfolios from exchanges api\n- Wallets & transactions from blockchain',
       titleMap: 'Q3.2018',
       statusMap: 'current_step',
     },
     {
       id: 3,
       title: 'Crowdsale, PromoCons',
-      description: '- Stores list\n- Admin panel\n- CSN token model\n- Airdrop\n- Acquire partners\n- ICO Token Sales',
+      description: '- Stores list\n- Admin panel\n- CSN token model\n- Airdrop\n- Acquire partners',
       titleMap: 'Q4.2018',
       statusMap: 'next_step',
     },
@@ -318,7 +318,7 @@ const Home = () => {
           </div>
           <div className="flex-item-7">
             <p className="description-p">
-              {'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'}
+              {'Our goal is to bring to a new level the simplicity and convenience of working with crypto assets. Based on the Coinsane platform, we are developing a universal service for decentralized banking blockchain.'}
             </p>
             {/* <FormattedMessage className="description-p" id="Home.p2" /> */}
           </div>
@@ -352,20 +352,20 @@ const Home = () => {
         <Team members={members} />
       </Section>
 
-      <Section
+      {/* <Section
         id="partners"
         background="linear-gradient(-135deg, #322B48 0%, #1B152D 100%)"
       >
         <JoinAs partners={partners} />
-      </Section>
+      </Section> */}
 
-      <Section
+      {/* <Section
         id="press"
         title="Press about us"
         background="radial-gradient(50% 96%, #F9F9FC 0%, #EFF1F6 96%)"
       >
         <Press articles={articles} />
-      </Section>
+      </Section> */}
 
       <DownloadSection
         background="linear-gradient(90deg, #9A84FF 3%, #575EF3 100%)"

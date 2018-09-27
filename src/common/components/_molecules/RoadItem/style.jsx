@@ -18,13 +18,12 @@ export const StyledRoadItem = styled.div`
         font-size: 18px;
         margin: 0 0 10px;
         color: #747AFF;
-        /* height: 40px; */
         overflow: hidden;
         text-overflow: ellipsis;
         text-align: left;
       }
       .description {
-        height: auto;
+        height: 95px;
         overflow: auto;
         text-overflow: ellipsis;
         font-size: 14px;
