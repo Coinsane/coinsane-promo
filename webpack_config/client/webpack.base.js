@@ -59,7 +59,7 @@ const baseBuild = {
     rules: isomorphicWebpackConfig.module.rules.concat([
       {
         test: /\.(ico|eot|otf|webp|ttf|woff|woff2)$/i,
-        use: `file-loader?limit=100000&name=assets/[name].[hash:6].[ext]`,
+        use: 'file-loader?limit=100000&name=assets/[name].[hash:6].[ext]',
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/,

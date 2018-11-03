@@ -64,7 +64,7 @@ export default {
     'react-router',
     'react-router-dom',
     'react-router-redux',
-    // 'semantic-ui-react',
+    'semantic-ui-react',
     'redux-thunk',
     'react-helmet',
     'lodash',

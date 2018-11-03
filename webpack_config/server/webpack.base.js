@@ -1,11 +1,17 @@
 import path from 'path';
 import webpack from 'webpack';
 import rimraf from 'rimraf';
+import nodeExternals from 'webpack-node-externals';
 import config from '../config';
 import isomorphicWebpackConfig from '../webpack.isomorphic';
-import nodeExternals from 'webpack-node-externals';
 
-const { SENTRY_DSN, CLIENT_STATIC_PATH, CLIENT_ASSETS_MANIFEST, isProduction, publicPath } = config;
+const {
+  SENTRY_DSN,
+  CLIENT_STATIC_PATH,
+  CLIENT_ASSETS_MANIFEST,
+  isProduction,
+  publicPath,
+} = config;
 
 // Clear dist dir before run
 rimraf(`${config.distPath}/server`, {}, () => {

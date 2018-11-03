@@ -13,7 +13,7 @@ type Props = {
   SSR?: {
     // SSR options, see `/server` for more info
     context: Object,
-    location: string
+    location: Object
   },
   history: Object, // Root node with routing, synced history, store
 }

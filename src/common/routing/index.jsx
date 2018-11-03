@@ -7,7 +7,6 @@ import {
 } from 'semantic-ui-react';
 import _ from 'lodash';
 import Home from 'containers/Home';
-import Links from 'containers/Links';
 
 function asyncComponentCreator(url) {
   return asyncComponent({
@@ -47,7 +46,7 @@ function asyncComponentCreator(url) {
 
 function routingFnCreator(useFor) {
   // const AsyncNotFound = asyncComponentCreator('NotFound')
-  // Home and Links included in build
+  // Home included in build
   // NotFound(404) is lazy
   const routes: any[] = [
     {
@@ -55,12 +54,6 @@ function routingFnCreator(useFor) {
       exact: true,
       component: Home,
       name: 'Home',
-    },
-    {
-      path: '/links',
-      exact: true,
-      component: Links,
-      name: 'Links',
     },
     {
       component: asyncComponentCreator('NotFound'),

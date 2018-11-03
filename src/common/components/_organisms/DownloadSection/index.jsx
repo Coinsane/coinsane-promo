@@ -8,14 +8,16 @@ import { StyledDownloadSection } from './style';
 
 DownloadFooter.propTypes = {
   image: PropTypes.string.isRequired,
-  imageSet: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   background: PropTypes.string.isRequired,
 };
 
 export default function DownloadFooter({
-  image, imageSet, title, description, background,
+  image,
+  title,
+  description,
+  background,
 }) {
   return (
     <StyledDownloadSection background={background}>
@@ -25,7 +27,6 @@ export default function DownloadFooter({
             <Image
               className="iphone-download"
               src={image}
-              srcSet={imageSet}
             />
           </div>
           <div className="flex-item">

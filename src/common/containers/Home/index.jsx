@@ -370,7 +370,6 @@ const Home = () => {
       <DownloadSection
         background="linear-gradient(90deg, #9A84FF 3%, #575EF3 100%)"
         image={require('static/images/iphone-download.png')}
-        imageSet={require('static/images/iphone-download@2x.png')}
         title="Download the App"
         description="Our app is available for ios and android download now and enjoy this app on your smartphone anytime"
       />

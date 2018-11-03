@@ -1,7 +1,7 @@
 import { css } from 'styled-components';
 import _ from 'lodash';
 
-const pxToEm = px => px / 16 + 'em';
+const pxToEm = px => `${px / 16}em`;
 
 const iWantToUseEm = true;
 // NOTE: This grid don't match SUI's grid.
@@ -18,7 +18,7 @@ const sizes = _.mapValues(
   (value, key) => {
     // NOTE: Please, read more about `em` before switching
     // https://stackoverflow.com/questions/22228568/switching-to-em-based-media-queries
-    return iWantToUseEm ? pxToEm(value) : value + 'px';
+    return iWantToUseEm ? pxToEm(value) : `${value}px`;
   },
 );
 

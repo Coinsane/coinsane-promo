@@ -1,7 +1,7 @@
-import baseWebpackConfig from './webpack.base';
 import StartServerPlugin from 'start-server-webpack-plugin';
 import webpack from 'webpack';
 import config from '../config';
+import baseWebpackConfig from './webpack.base';
 
 const { CLIENT_ASSETS_MANIFEST, INSPECT_ENABLED } = config;
 const inspectEnabled = INSPECT_ENABLED ? ['--inspect'] : [];

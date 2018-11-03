@@ -5,7 +5,13 @@ import FriendlyErrorsPlugin from 'razzle-dev-utils/FriendlyErrorsPlugin';
 import baseWebpackConfig from './webpack.base';
 import config from '../config';
 
-const { vendor, polyfills, DEV_SERVER_PORT, HOST, PORT } = config;
+const {
+  vendor,
+  polyfills,
+  DEV_SERVER_PORT,
+  HOST,
+  PORT,
+} = config;
 const filename = '[name].js';
 const loaders = {
   style: { loader: 'style-loader' },
