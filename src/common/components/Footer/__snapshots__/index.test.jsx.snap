@@ -16,7 +16,7 @@ exports[`Footer component same snapshot 1`] = `
           width={12}
         >
           <a
-            href="https://github.com/Metnew/suicrux"
+            href="https://github.com/Coinsane/coinsane-promo"
           >
             <Header
               as="h3"
@@ -27,7 +27,7 @@ exports[`Footer component same snapshot 1`] = `
                 name="github"
               />
               <HeaderContent>
-                Suicrux
+                Coinsane
                 <HeaderSubheader>
                   Best carefully selected libs ❤️
                 </HeaderSubheader>

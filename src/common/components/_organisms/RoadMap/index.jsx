@@ -20,13 +20,11 @@ export default function RoadMap({ quarter }) {
     <StyledRoadMap>
       <Carousel
         showArrows
-        autoPlay
-        interval={10000}
-        infiniteLoop
         showThumbs={false}
         centerMode
         centerSlidePercentage={50}
         emulateTouch
+        selectedItem={2}
         showStatus={false}
         showIndicators={false}
       >

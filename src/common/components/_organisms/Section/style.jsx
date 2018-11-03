@@ -14,7 +14,7 @@ export const StyledSection = styled.div`
   .section-h2 {
     font-weight: normal !important;
     font-size: 38px !important;
-    color: ${props => (props.color ? props.color : '#747AFF')};
+    color: ${props => (props.color ? props.color : '#747AFF')} !important;
     margin-bottom: 20px !important;
   }
 `;

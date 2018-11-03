@@ -13,7 +13,7 @@ describe('Links actions', () => {
       type: GET_LINKS_PENDING,
     };
 
-    it('creates GET_LINKS_FULFILLED when GET_LINKS was successful', async done => {
+    it('creates GET_LINKS_FULFILLED when GET_LINKS was successful', async (done) => {
       const store = mockStore({});
       const data = {
         link: 'string',

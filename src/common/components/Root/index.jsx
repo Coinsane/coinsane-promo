@@ -66,11 +66,11 @@ class Root extends Component<Props> {
                 <Helmet>
                   <html lang={i18n.lang} />
                   <meta charSet="utf-8" />
-                  <title>Suicrux</title>
+                  <title>Coinsane</title>
                   <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
                   <meta
                     name="description"
-                    content="Ultimate universal starter with lazy-loading, SSR and i18n"
+                    content="Coinsane Promo"
                   />
                   <meta name="theme-color" content="#1b1e2f" />
                   <meta name="viewport" content="width=device-width, initial-scale=1.0" />

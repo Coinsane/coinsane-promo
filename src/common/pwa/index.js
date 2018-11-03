@@ -2,12 +2,12 @@ import runtime from 'offline-plugin/runtime';
 
 runtime.install({
   // Go offline on installed
-  onInstalled: function () {
+  onInstalled() {
     // openOfflineReady()
   },
 
   // do something
-  onUpdating: function () {
+  onUpdating() {
   },
 
   // When an update is ready, tell ServiceWorker to take control immediately:
@@ -23,5 +23,5 @@ runtime.install({
 
   onUpdateFailed: () => {
     console.log('SW Event:', 'onUpdateFailed');
-  }
+  },
 });

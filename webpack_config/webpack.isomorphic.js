@@ -6,7 +6,14 @@ import webpack from 'webpack';
 import CircularDependencyPlugin from 'circular-dependency-plugin';
 import config from './config';
 
-const { srcPath, rootPath, srcCommonPath, PORT, NODE_ENV, HOST } = config;
+const {
+  srcPath,
+  rootPath,
+  srcCommonPath,
+  PORT,
+  NODE_ENV,
+  HOST,
+} = config;
 const definePluginArgs = {
   'process.env.NODE_ENV': JSON.stringify(NODE_ENV),
   'process.env.PORT': JSON.stringify(PORT),

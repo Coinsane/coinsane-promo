@@ -30,7 +30,7 @@ const HTMLComponent = ({
     js: ({ path }) => `<script src="${path}" type="text/javascript"></script>`,
   };
   const assetsOrdered = ['manifest', 'polyfills', 'vendor', 'client'];
-  const getTags = assets => funcs => ext => Object.keys(assets)
+  const getTags = asset => funcs => ext => Object.keys(asset)
     .filter(bundleName => assets[bundleName][ext])
     .sort((a, b) => assetsOrdered.indexOf(a) - assetsOrdered.indexOf(b))
     .map((bundleName) => {

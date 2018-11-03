@@ -1,2 +1,2 @@
-const file = 'file'
-export default file
+const file = 'file';
+export default file;

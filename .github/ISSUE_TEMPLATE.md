@@ -8,7 +8,7 @@
 
 - #### Is feature important in common use cases?
 
-  **If this feature is custom and interesting only for you** (not useful for other users, has connection with your app logic, etc.) - **email me [vladimirmetnew@gmail.com](mailto:vladimirmetnew@gmail.com).**
+  **If this feature is custom and interesting only for you** (not useful for other users, has connection with your app logic, etc.) - **email me [dev.tema@gmail.com](mailto:dev.tema@gmail.com).**
 
 - #### Describe requested feature:
 

@@ -1,74 +1,23 @@
-# Suicrux :smiling_imp:
-
-Ultimate **universal** starter with **lazy-loading**, **SSR** and **i18n**.
-
-> [Previous release](https://github.com/Metnew/suicrux/tree/previous)
-<!-- > Demo sometimes becomes frozen by `now`. Retry in a few minutes, if it doesn't work. -->
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/Metnew/suicrux.svg)](https://greenkeeper.io/)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fd637f7c63e74da199cec17f3f0e3fd9)](https://www.codacy.com/app/Metnew/suicrux?utm_source=github.com&utm_medium=referral&utm_content=Metnew/suicrux&utm_campaign=badger)
-
-<!-- ![](https://github.com/Metnew/suicrux/blob/for-gh/screen.gif) -->
-
-<div>
-  <a href="https://travis-ci.org/Metnew/suicrux">
-    <img src="https://travis-ci.org/Metnew/suicrux.svg?branch=master" alt="Build Status">
-  </a>
-  <a href="https://gitter.im/suicrux/Lobby?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp; utm_content=badge">
-    <img src="https://badges.gitter.im/suicrux/Lobby.svg" alt="Join the chat at https://gitter.im/suicrux/Lobby">
-  </a>
-  <a href="https://www.bithound.io/github/Metnew/suicrux">
-    <img src="https://www.bithound.io/github/Metnew/suicrux/badges/code.svg" alt="bitHound Code">
-  </a>
-  <a href="https://www.bithound.io/github/Metnew/suicrux">
-    <img src="https://www.bithound.io/github/Metnew/suicrux/badges/score.svg" alt="bitHound Overall Score">
-  </a>
-   <a href="https://codecov.io/gh/Metnew/suicrux">
-    <img src="https://codecov.io/gh/Metnew/suicrux/branch/master/graph/badge.svg" alt="codecov">
-  </a>
-</div>
+# Coinsane Promo
 
 ## Quick start
 
 ```bash
   # Install
-  git clone --depth=1 --single-branch https://github.com/Metnew/suicrux.git
-  cd suicrux
-  npm install
+  git clone https://github.com/temadev/coinsane-promo.git
+  cd coinsane-promo
+  yarn
   # install flow typings for libraries (optional)
   flow-typed install
   # Development
-  npm run dev
+  yarn dev
   # Build
-  npm run build
+  yarn build
   # Production
-  npm run start
+  yarn start
 ```
 
-- [Quick start](#quick-start)
-- [What's inside?](#whats-inside)
-    - [Client](#client)
-    - [Server](#server)
-    - [Webpack](#webpack)
-    - [Other](#other)
-- [Suicrux FAQ](#faq)
-    - [Static assets?](#static-assets)
-    - [SSR?](#ssr)
-    - [Code-splitting?](#code-splitting)
-    - [Server-side data-fetching?](#server-side-data-fetching)
-    - [Theming?](#theming)
-    - [Browser support](#browser-support)
-- [Environment variables](#environment-variables)
-- [Semantic.UI + React = SUIR](#semanticui--react--suir)
-    - [Good parts](#good-parts)
-    - [Bad parts](#bad-parts)
-- [Contributing](#contributing)
-- [Author](#author)
-- [LICENSE](#license)
-
 ## What's inside?
-
-[![bitHound Dependencies](https://www.bithound.io/github/Metnew/suicrux/badges/dependencies.svg)](https://www.bithound.io/github/Metnew/suicrux/master/dependencies/npm) [![bitHound Dev Dependencies](https://www.bithound.io/github/Metnew/suicrux/badges/devDependencies.svg)](https://www.bithound.io/github/Metnew/suicrux/master/dependencies/npm)
 
 ### Client:
 
@@ -114,9 +63,8 @@ Ultimate **universal** starter with **lazy-loading**, **SSR** and **i18n**.
 ### Other:
 
 - **[Jest](https://facebook.github.io/jest/)** - testing framework.
-- [And more tools for building and testing...](https://github.com/Metnew/suicrux/blob/master/package.json)
 
-## Suicrux FAQ
+## FAQ
 
 #### Static assets?
 
@@ -167,9 +115,6 @@ Without `react-intl`:
 > SUIR = Semantic-UI-React
 > TL;DR: SUIR is great, but it lacks inline-styles.
 
-You're always free to use any other UI framework with `suicrux`.
-**[UI framework comparison.](https://hackernoon.com/the-coolest-react-ui-frameworks-for-your-new-react-app-ad699fffd651)**
-
 ### Good parts
 
 1. Big UI library
@@ -187,15 +132,15 @@ You're always free to use any other UI framework with `suicrux`.
 
 ## Contributing
 
-> Have a question? Ask! :wink: 
+> Have a question? Ask!
 
-> Make sure you ask a right question. :smiling_imp:
+> Make sure you ask a right question.
 
 PRs, issues, enhancements are always welcome.
 
 ### Author
 
-Vladimir Metnew [vladimirmetnew@gmail.com](mailto:vladimirmetnew@gmail.com)
+Artem Kashin [dev.tema@gmail.com](mailto:dev.tema@gmail.com)
 
 ### LICENSE
 

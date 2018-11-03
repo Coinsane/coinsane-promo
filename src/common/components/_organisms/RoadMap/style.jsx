@@ -7,7 +7,7 @@ export const StyledRoadMap = styled.div`
   flex: 1;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 60px 0;
   .carousel .slide {
     background-color: transparent;
   }

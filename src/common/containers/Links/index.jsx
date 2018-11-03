@@ -37,7 +37,7 @@ class Links extends Component<Props> {
     return (
       <div>
         <Helmet>
-          <title>Suicrux:Links</title>
+          <title>Coinsane:Links</title>
         </Helmet>
         {!isLinksLoaded ? (
           <Loader active>Loading data...</Loader>

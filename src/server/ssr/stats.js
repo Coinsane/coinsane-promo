@@ -4,7 +4,7 @@ import chokidar from 'chokidar';
 
 const cache = {};
 // NOTE: Razzle could `require` CLIENT_ASSETS_MANIFEST
-// In SUIcrux it's currently not possible :(
+// It's currently not possible :(
 // Server requires "missing module"
 // Probably, because CLIENT_ASSETS_MANIFEST isn't ready while it's required
 // So, we read file (only on first request) instead of importing it
@@ -14,7 +14,7 @@ async function getFile(path) {
     return cache[path];
   }
 
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const watcher = chokidar.watch(path);
 
     // This `readFile` func is looking like it escaped from procedure programming

@@ -22,7 +22,7 @@ const sizes = _.mapValues(
   },
 );
 
-// NOTE: @Metnew: this block may be rewritten more elegant (like the code below, from off docs)
+// NOTE: this block may be rewritten more elegant (like the code below, from off docs)
 export const media = {
   xs: (...args) => css`
     @media only screen and (max-width: ${sizes.sm}) {

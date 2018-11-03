@@ -41,18 +41,6 @@ const HomepageHeading = () => (
   <Container>
     <div className="flex">
       <div className="flex-item">
-        <Header
-          className="h1"
-          as="h1"
-          content="Money management in crypto"
-          inverted
-        />
-        <Header
-          className="h2"
-          as="h2"
-          content="Development of crypto accounting platform for assets management and payments. Online banking on blockchain."
-          inverted
-        />
         <Image
           className="store-button"
           src={require('static/images/appstore.svg')}
@@ -66,6 +54,18 @@ const HomepageHeading = () => (
           alt="googleplay"
           href="https://play.google.com/store/apps/details?id=org.coinsane.v1"
           target="_blank"
+        />
+        <Header
+          className="h1"
+          as="h1"
+          content="Money management in crypto"
+          inverted
+        />
+        <Header
+          className="h2"
+          as="h2"
+          content="Development of crypto accounting platform for assets management and payments. Online banking on blockchain."
+          inverted
         />
       </div>
       <div className="flex-item">

@@ -40,12 +40,12 @@ class TopMenu extends Component<Props> {
         title: 'Features',
         onClick: this.handleItemClick,
       }, {
-        name: 'team',
-        title: 'Team',
-        onClick: this.handleItemClick,
-      }, {
         name: 'roadmap',
         title: 'Roadmap',
+        onClick: this.handleItemClick,
+      }, {
+        name: 'team',
+        title: 'Team',
         onClick: this.handleItemClick,
       },
     ];

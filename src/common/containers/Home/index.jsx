@@ -313,7 +313,7 @@ const Home = () => {
           <div className="flex-item-3">
             <Image
               className="description-image"
-              src={require('static/images/description.svg')}
+              src={require('static/images/illustration.png')}
             />
           </div>
           <div className="flex-item-7">

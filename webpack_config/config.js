@@ -1,6 +1,6 @@
 /**
- * @file for config stuff that's used for webpack configuration, but isn't passed to webpack compiler
- */
+* @file for config stuff that's used for webpack configuration, but isn't passed to webpack compiler
+*/
 
 import path from 'path';
 import manifest from '../static/manifest';
@@ -53,7 +53,7 @@ export default {
   rootPath,
   publicPath,
   // text for WebpackBannerPlugin
-  banner: 'Apache 2 License. Copyright (c) 2018 Vladimir Metnew. Repo: https://github.com/Metnew/suicrux',
+  banner: 'Apache 2 License. Copyright (c) 2018 Artem Kashin. Repo: https://github.com/temadev/coinsane-promo',
   // your manifest.json
   manifest,
   vendor: [
