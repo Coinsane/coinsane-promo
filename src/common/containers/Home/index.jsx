@@ -2,6 +2,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Image } from 'semantic-ui-react';
+import { FormattedMessage } from 'react-intl';
 
 import Head from 'components/Head';
 import Footer from 'components/Footer';
@@ -318,7 +319,7 @@ const Home = () => {
           </div>
           <div className="flex-item-7">
             <p className="description-p">
-              {'Our goal is to bring to a new level the simplicity and convenience of working with crypto assets. Based on the Coinsane platform, we are developing a universal service for decentralized banking blockchain.'}
+              <FormattedMessage id="Home.description" />
             </p>
             {/* <FormattedMessage className="description-p" id="Home.p2" /> */}
           </div>
